@@ -6,3 +6,4 @@
 1. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 2. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
 3. [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
+4. [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) 
