@@ -9,4 +9,8 @@
 4. [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
 
 ## Linked List
-1. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) 
+1. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+
+|Question                 | Category        | Frequency as on 1 Dec | Dates           | Practice Again | Note          |
+| ----------------------  | -------------   | ----------------------| --------------- | -------------  | ------------- | 
+2. |[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)| Matrix | 18 | 01/12 | YES |
