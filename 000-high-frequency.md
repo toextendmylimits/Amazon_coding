@@ -13,4 +13,4 @@
 
 |Question                 | Category        | Frequency as on 1 Dec | Dates           | Practice Again | Note          |
 | ----------------------  | -------------   | ----------------------| --------------- | -------------  | ------------- | 
-2. |[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)| Matrix | 18 | 01/12 | YES |
+|[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)| Matrix | 18 | 01/12 | YES |
