@@ -4,3 +4,9 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring) | 4/12 | YES | Maintain a window that is valid. Need to memorize the code a few times. | 
+
+## Binary Search
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[2055. Plates between candles](https://leetcode.com/problems/plates-between-candles) | 4/12 | YES | Need to memorize as well | 
+
