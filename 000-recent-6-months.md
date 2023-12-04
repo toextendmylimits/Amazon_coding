@@ -15,4 +15,11 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts) | 4/12 | YES | What matters are unique elements | 
 
+## Basic Programming
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)| 4/12 | YES | Non zero start idx, first negative idx, negative count are what matters | 
+
+
+
 
