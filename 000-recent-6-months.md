@@ -10,3 +10,9 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2055. Plates between candles](https://leetcode.com/problems/plates-between-candles) | 4/12 | YES | Need to memorize as well | 
 
+## Hash map
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts) | 4/12 | YES | What matters are unique elements | 
+
+
