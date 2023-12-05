@@ -37,6 +37,8 @@
 |[2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string) | 4/12 | YES | Use hash set to check whether there is duplicate, and reset it if there is duplicate, meaning need a new word | 
 |[2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k) | 4/12 | YES | Key is to understand great common divisors | 
 |[2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | 4/12 | YES | Greedy | 
+|[2340. Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array)| 4/12 | YES | Greedy | 
+
 
 
 
