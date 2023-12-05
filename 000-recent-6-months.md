@@ -20,6 +20,11 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)| 4/12 | YES | Non zero start idx, first negative idx, negative count are what matters | 
 
+## Two pointers
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)| 4/12 | YES | Two pointers | 
+
 
 
 
