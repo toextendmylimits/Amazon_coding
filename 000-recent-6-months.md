@@ -40,6 +40,12 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Convert tree to graph then do BFS | 
 
+## Math
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options)| 4/12 | YES |  | 
+|
+
 
 
 
