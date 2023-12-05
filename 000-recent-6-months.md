@@ -24,6 +24,7 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)| 4/12 | YES | Two pointers | 
+|[2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) | 4/12 | YES | Two pointers, very similar to above | 
 
 
 
