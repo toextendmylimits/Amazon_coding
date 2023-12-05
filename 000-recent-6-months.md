@@ -31,6 +31,7 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Process most frequent characters first so use max heap | 
+|[2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string) | 4/12 | YES | Use hash set to check whether there is duplicate, and reset it if there is duplicate, meaning need a new word | 
 
 
 
