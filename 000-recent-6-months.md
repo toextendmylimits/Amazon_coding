@@ -27,11 +27,16 @@
 |[2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) | 4/12 | YES | Two pointers, very similar to above | 
 |[1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)| 4/12 | NO | Simple | 
 
-# Greedy
+## Greedy
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Process most frequent characters first so use max heap | 
 |[2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string) | 4/12 | YES | Use hash set to check whether there is duplicate, and reset it if there is duplicate, meaning need a new word | 
+
+## Tree Graph DFS/BFS
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Convert tree to graph then do BFS | 
 
 
 
