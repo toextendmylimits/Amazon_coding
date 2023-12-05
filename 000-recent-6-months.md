@@ -1,3 +1,5 @@
+
+
 # High-frequency questions that appear in recent 6 months
 
 ## Sliding window
@@ -49,6 +51,8 @@
 |[1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options)| 4/12 | YES |  | 
 |
 
+## Heap
+|[2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)| 4/12 | YES | Two heaps | 
 
 
 
