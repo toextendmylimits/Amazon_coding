@@ -52,9 +52,13 @@
 |
 
 ## Heap
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
 |[2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)| 4/12 | YES | Two heaps | 
 
 ## Dynamic programming
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
 |[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with different letters | 
 
 
