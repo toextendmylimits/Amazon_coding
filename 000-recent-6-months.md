@@ -10,6 +10,7 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2055. Plates between candles](https://leetcode.com/problems/plates-between-candles) | 4/12 | YES | Need to memorize as well | 
 
+
 ## Hash map
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
@@ -33,6 +34,8 @@
 |[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Process most frequent characters first so use max heap | 
 |[2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string) | 4/12 | YES | Use hash set to check whether there is duplicate, and reset it if there is duplicate, meaning need a new word | 
 |[2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k) | 4/12 | YES | Key is to understand great common divisors | 
+|[2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | 4/12 | YES | Greedy | 
+
 
 
 ## Tree Graph DFS/BFS
