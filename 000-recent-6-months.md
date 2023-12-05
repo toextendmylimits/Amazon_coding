@@ -27,6 +27,12 @@
 |[2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) | 4/12 | YES | Two pointers, very similar to above | 
 |[1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)| 4/12 | NO | Simple | 
 
+# Greedy
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Process most frequent characters first so use max heap | 
+
+
 
 
 
