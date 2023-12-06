@@ -42,6 +42,9 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
           return result
       ```
    </details>
+1. Encipher a string. Amazon Hackon, Online Assessment Asked Question (28th September 2023) | Ecnipering a String | Maximum Prime Difference. Question 1 of https://www.thejoboverflow.com/p/p2151/
+   Relatively simple. Read question carefully about how multiplier is incremented
+   
 
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
