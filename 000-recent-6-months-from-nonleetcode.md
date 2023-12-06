@@ -12,8 +12,13 @@
 
    Then similarly scan from right to left, find array element that could have k smaller values on right. The intersection with the array elements that have k smaller values on left is the result.
    
-1. Amazon, Online Assessment Asked Question (1st October 2023) | Recently viewed Items page | Amount of Rainfall question 2 of https://www.thejoboverflow.com/p/p2181/ Given an array of predicted rainfall for next n days, where index i presents a day and day[i] represents the amount of rainfall on that day, return a list of ideal days such that -
+1. Amazon, Online Assessment Asked Question (1st October 2023) | Recently viewed Items page | Amount of Rainfall question 2 of https://www.thejoboverflow.com/p/p2181/  
+  Given an array of predicted rainfall for next n days, where index i presents a day and day[i] represents the amount of rainfall on that day, return a list of ideal days such that -
 day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <= day[i+k], https://leetcode.com/discuss/interview-question/1482144/Amazon-Online-Assessment-September-2021
+
+   The idea is to find days that has less rain on the left and right seperately using following formula:  
+     if days[i] <= days[i - 1]:  
+         prev_no_more_rain_days[i] = prev_no_more_rain_days[i - 1] + 1  
    <details>
 
       ```python
