@@ -4,4 +4,5 @@
 
 # Re-visit
 1. Amazon Hackon, Online Assessment Questions (29th September 2023) | Longest Common String - Alpha Set version | Unique Permutation https://www.thejoboverflow.com/p/p2152/
+2. Mininum of operations https://www.thejoboverflow.com/p/p2152/
 
