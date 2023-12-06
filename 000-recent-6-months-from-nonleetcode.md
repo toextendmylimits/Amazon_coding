@@ -10,7 +10,34 @@
 
    The idea is to use a max heap to save the smallest k elements. Scan the array from left to right, if heap's size is k and the largest one in the heap is less than the array element, then this array element is a potential candidate and save it in a hash set. Then push this array element into heap. If heap size is greater thank k, then pop. 
 
-   Then similarly scan from right to left, find array element that could have k smaller values on right. The intersection with the array elements that have k smaller values on left is the result. 
+   Then similarly scan from right to left, find array element that could have k smaller values on right. The intersection with the array elements that have k smaller values on left is the result.
+   
+1. Amazon, Online Assessment Asked Question (1st October 2023) | Recently viewed Items page | Amount of Rainfall question 2 of https://www.thejoboverflow.com/p/p2181/ Given an array of predicted rainfall for next n days, where index i presents a day and day[i] represents the amount of rainfall on that day, return a list of ideal days such that -
+day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <= day[i+k], https://leetcode.com/discuss/interview-question/1482144/Amazon-Online-Assessment-September-2021
+   <details>
+
+      ```python
+      def predict_days(days, k):
+          prev_no_more_rain_days = [0] * len(days)
+          next_no_more_rain_days = [0] * len(days)
+          for i in range(1, len(days)):
+              if days[i] <= days[i - 1]:
+                  prev_no_more_rain_days[i] = prev_no_more_rain_days[i - 1] + 1
+          
+          for j in range(len(days) - 2, -1, -1):
+              if days[j] <= days[j + 1]:
+                  next_no_more_rain_days[j] = next_no_more_rain_days[j + 1] + 1
+                  
+          result = []
+          for i in range(len(prev_no_more_rain_days)):
+              no_more_rain_days = min(prev_no_more_rain_days[i], next_no_more_rain_days[i])
+              if no_more_rain_days >= k:
+                  result.append(i + 1)
+             
+          return result
+      ```
+   </details>
+
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
