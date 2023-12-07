@@ -98,7 +98,28 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
 1. Rat and cheese. Amazon Hackon, Recently Asked Online Assessment Asked Question (29th September 2023) | Alpha Bitwise Operation | Rat and Cheese. Question 2 of https://www.thejoboverflow.com/p/p2161/
 
    Standard BFS.
+1. First non repeating character. Question: Amazon Hackon, Recently Asked Online Assessment Questions | First Non-Repeating | The Three Jumps | 29th September 2023. Question 1 of https://www.thejoboverflow.com/p/p2162/.
 
+   Relatively simple. Just construct the string first and then find first non repeating one. Code is as follows: 
+   <details>
+      
+      ```python
+      def get_first_non_repeat(s):
+          rearranged = []
+          for i in range(0, len(s), 2):
+              rearranged.append(s[i])
+          
+          for i in range(1, len(s), 2):
+              rearranged.append(s[i])
+          
+          counter = Counter(rearranged)
+          for ch in rearranged:
+              if counter[ch] == 1:
+                  return ch
+       
+      print(get_first_non_repeat("abcdefab"))
+      ```
+   </details>
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
