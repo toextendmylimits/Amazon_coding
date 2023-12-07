@@ -61,8 +61,16 @@
 ## Dynamic programming
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with different letters | 
+|[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with diffe
+rent letters | 
 |[1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum) | 6/12 | YES |  | 
+
+## Stack
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[20. Valid Parentheses](https://leetcode.com/problems/count-vowels-permutation) | 8/12 | YES | No need to use stack. Use count is enough
+|[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision)| 8/12 | YES | No need to use stack. Use count is enough
+
 
 
 
