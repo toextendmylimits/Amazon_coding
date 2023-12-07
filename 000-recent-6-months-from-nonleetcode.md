@@ -72,7 +72,7 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       ```
    </details>
 
-1. Longest common string of alpha set. Question: Amazon Hackon, Online Assessment Questions (29th September 2023) | Longest Common String - Alpha Set version | Unique Permutation. Question 1 of https://www.thejoboverflow.com/p/p2152/
+1. Longest common string of alpha set. Question: Amazon Hackon, Online Assessment Questions (29th September 2023) | Longest Common String - Alpha Set version | Unique Permutation. Question 1 of https://www.thejoboverflow.com/p/p2152/  
    Key observation is that if a letter appears k times in all the strings, then it should appear in the longest string of k times as well. Code is as follows:  
    <details>
       
