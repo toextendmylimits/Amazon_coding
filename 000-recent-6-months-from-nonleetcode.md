@@ -120,6 +120,32 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(get_first_non_repeat("abcdefab"))
       ```
    </details>
+   
+1. Three jumps. Question: Amazon Hackon, Recently Asked Online Assessment Questions | First Non-Repeating | The Three Jumps | 29th September 2023. Question 2 of https://www.thejoboverflow.com/p/p2162/.
+
+   dp[i] denote minimumm cost to jump to index i, then dp[i] = min(dp[i], dp[i - j] + abs(costs[i - j] - costs[i])) for any j that is less than the allowed jumps. Beware dp array should be initialized with maximum value and dp[0] = 0. Code is as follows:
+   
+   <details>
+      
+      ```python
+      def get_min_cost(costs, k):
+          if len(costs) <= 1:
+              return 0
+          
+          dp = [float('inf')] * len(costs)
+          dp[0] = 0
+      
+          for i in range(1, len(costs)):
+              for j in range(1, k + 1):
+                  if i >= j:
+                      dp[i] = min(dp[i], dp[i - j] + abs(costs[i - j] - costs[i]))
+      
+          return dp[len(costs) - 1]
+      
+      print(get_min_cost([30, 10, 60, 10, 60], 3))
+      ```
+   </details>
+   
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
