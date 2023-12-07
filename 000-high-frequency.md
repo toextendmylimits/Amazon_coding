@@ -7,6 +7,8 @@
 2. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
 3. [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
 4. [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
+5. [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
+   Two approaches. a. Sort b. Not sort, but use hash map. Memorize the code
 
 ## Linked List
 1. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
