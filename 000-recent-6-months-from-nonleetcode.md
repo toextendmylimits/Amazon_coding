@@ -145,6 +145,8 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(get_min_cost([30, 10, 60, 10, 60], 3))
       ```
    </details>
+
+1. Question: Amazon Hackon, Online Assessment Asked Question (29th September 2023) | Index Difference | Ride Sharing Company. Question 1 of https://www.thejoboverflow.com/p/p2160/
    
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
