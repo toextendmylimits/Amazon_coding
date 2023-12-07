@@ -3,7 +3,7 @@
     a. Atleast size of 2   
     b. When sorted, ricebags[i]*ricebags[i]=ricebags[i+1] , for all 0<=i<=N(length of ricebags)  
   https://leetcode.com/discuss/interview-question/2353856/Amazon-or-India-or-SDE-2-or-OA-or-JULY-or-2022  
-  <details>
+    <details>
 
     ```python
     import math
@@ -21,4 +21,4 @@
             result = max(result, perfect_bag_size_map[i])
         return result
     ```
-  </details>
+    </details>
