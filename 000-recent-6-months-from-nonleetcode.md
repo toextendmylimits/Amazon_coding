@@ -71,6 +71,28 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(get_min_cost_shipping([2, 3, 6, 10, 11],9))
       ```
    </details>
+
+1. Longest common string of alpha set. Question: Amazon Hackon, Online Assessment Questions (29th September 2023) | Longest Common String - Alpha Set version | Unique Permutation. Question 1 of https://www.thejoboverflow.com/p/p2152/
+   Key observation is that if a letter appears k times in all the strings, then it should appear in the longest string of k times as well. Code is as follows:  
+   <details>
+      
+      ```python
+      def get_max_common_str_len(strs):
+          counters = [Counter(s) for s in strs]
+          result = 0
+          for i in range(26):
+              letter = chr(ord("a") + i)
+              freq = float("inf")
+              for counter in counters:
+                  if counter[letter] < freq:
+                      freq = counter[letter]
+              result += freq
+      
+          return result
+      
+      print(get_max_common_str_len(["aba", "cbaa"]))
+      ```
+   </details>
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
