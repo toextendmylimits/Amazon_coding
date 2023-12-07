@@ -147,7 +147,52 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
    </details>
 
 1. Question: Amazon Hackon, Online Assessment Asked Question (29th September 2023) | Index Difference | Ride Sharing Company. Question 1 of https://www.thejoboverflow.com/p/p2160/
-   
+
+1. Employee hierachy. Question: Amazon Hackon, Online Assesment Asked Question | Tech Curator | Given Integer N to Zero | 29th September 2023. Question 1 of https://www.thejoboverflow.com/p/p2163/.
+
+   The idea is to create a tree and each node represent an employee and its direct reports. Count number of nodes directly and save the result for each node value in a hash map.
+   <details>
+
+      ```python
+      class TreeNode:
+          def __init__(self, val):
+              self.val = val
+              self.reports = set()
+          
+      def count_reports(node, id_reports_count_map):
+          if not node:
+              return 0
+      
+          count = 1
+          for report in node.reports:
+              count += count_reports(report, id_reports_count_map)
+      
+          id_reports_count_map[node.val] = count - 1
+          
+          return count
+      
+      def create_hierachy(relations):
+          root = TreeNode(1)
+          employee_id_nodes_map = { root.val : root}
+          for i in range(len(relations)):
+              employee_id = relations[i]
+              report = i + 2
+              if employee_id not in employee_id_nodes_map:
+                  employee_id_nodes_map[employee_id] = TreeNode(employee_id)
+                  
+              if report not in employee_id_nodes_map:
+                  employee_id_nodes_map[report] = TreeNode(report)
+                  
+              employee_id_nodes_map[employee_id].reports.add(employee_id_nodes_map[report])
+          
+          id_reports_count_map = {}
+          count_reports(root, id_reports_count_map)
+      
+          return [id_reports_count_map[id] for id in range(1, len(id_reports_count_map) + 1)]
+      
+      print(create_hierachy([1, 1, 3, 3]))      
+      ```
+   </details>
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
