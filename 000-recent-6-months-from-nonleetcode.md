@@ -94,6 +94,11 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(get_max_common_str_len(["aba", "cbaa"]))
       ```
    </details>
+
+1. Rat and cheese. Amazon Hackon, Recently Asked Online Assessment Asked Question (29th September 2023) | Alpha Bitwise Operation | Rat and Cheese. Question 2 of https://www.thejoboverflow.com/p/p2161/
+
+   Standard BFS.
+
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
