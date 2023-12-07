@@ -52,7 +52,7 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
    Find the max number, and then find all the prime numbers that is less than or equal to max number. Scan the array from left to right, find the index of the first prime number. Then scan from right to left, find index of last prime number. https://leetcode.com/playground/Xege95gZ
    Need to memorize how to find prime numbers.
    
-1. Minimum possible cost of shipping. Amazon, Online Assessment Questions | Minimum Possible Cost of Shipping | Amazon Prime Day | 2023. First question of https://www.thejoboverflow.com/p/p1688/
+1. Minimum possible cost of shipping. Amazon, Online Assessment Questions | Minimum Possible Cost of Shipping | Amazon Prime Day | 2023. First question of https://www.thejoboverflow.com/p/p1688/  
    Once understood the question, the solution is very simple as follows:
    <details>
       
