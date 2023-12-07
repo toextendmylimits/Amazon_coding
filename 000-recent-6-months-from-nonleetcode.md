@@ -219,6 +219,11 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(apply_alpha_bitwise([3, 4, 6, 7, 2]))      
       ```
    </details>
+
+1. Difference between first and last index. Question: Amazon Hackon, Online Assessment Asked Question (29th September 2023) | Index Difference | Ride Sharing Company. Question 1 of https://www.thejoboverflow.com/p/p2160/  
+
+   The idea is scan the array, and save the array element and all its positions.
+   
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
