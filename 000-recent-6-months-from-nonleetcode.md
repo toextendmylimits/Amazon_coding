@@ -193,6 +193,32 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
       print(create_hierachy([1, 1, 3, 3]))      
       ```
    </details>
+
+1. Alpha bitwise operation. Amazon Hackon, Recently Asked Online Assessment Asked Question (29th September 2023) | Alpha Bitwise Operation | Rat and Cheese. Question 1 of         https://www.thejoboverflow.com/p/p2161/  
+
+   It's very hard to understand the question. The key is to convert all num to binary string, find the longest string's length, and then loop from 0 bit until the maximum bit. In each iteration, check whether the bit is 1 or 0 based on condition whether set bits are greater than half of array size.  
+
+   <details>
+      
+      ```python
+      def apply_alpha_bitwise(nums):
+          binary_nums = [bin(n) for n in nums]
+          max_len = 0
+          for i, binary_num in enumerate(binary_nums):
+              max_len = max(max_len, len(binary_num))
+          
+          result = deque()
+          for i in range(max_len - 1, -1, -1):
+              ones = 0
+              for j, binary_num in enumerate(binary_nums):
+                  ones += (i < len(binary_num) and binary_num[i] == "1")
+                  
+              result.appendleft(str(int(ones > len(nums) / 2)))
+          return int("".join(result), 2)
+      
+      print(apply_alpha_bitwise([3, 4, 6, 7, 2]))      
+      ```
+   </details>
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
