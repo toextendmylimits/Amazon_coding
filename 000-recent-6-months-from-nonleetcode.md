@@ -52,7 +52,25 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
    Find the max number, and then find all the prime numbers that is less than or equal to max number. Scan the array from left to right, find the index of the first prime number. Then scan from right to left, find index of last prime number. https://leetcode.com/playground/Xege95gZ
    Need to memorize how to find prime numbers.
    
-
+1. Minimum possible cost of shipping. Amazon, Online Assessment Questions | Minimum Possible Cost of Shipping | Amazon Prime Day | 2023. First question of https://www.thejoboverflow.com/p/p1688/
+   Once understood the question, the solution is very simple as follows:
+   <details>
+      
+      ```python
+      def get_min_cost_shipping(parcels, truck_capacity):
+          loaded_parcels = set(parcels)
+          i = 1
+          while len(loaded_parcels) < truck_capacity:
+              if i not in loaded_parcels:
+                  loaded_parcels.add(i)
+       
+              i += 1
+                  
+          return sum(loaded_parcels)
+   
+      print(get_min_cost_shipping([2, 3, 6, 10, 11],9))
+      ```
+   </details>
 1. Distribute toy cars between 3 children
    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023/
 
