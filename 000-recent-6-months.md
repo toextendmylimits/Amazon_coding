@@ -38,6 +38,8 @@
 |[2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k) | 4/12 | YES | Key is to understand great common divisors | 
 |[2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | 4/12 | YES | Greedy | 
 |[2340. Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array)| 4/12 | YES | move the minimum to the leftmost side and move maximum to the rightmost side. | 
+|[135. Candy](https://leetcode.com/problems)| 8/12 | YES | First ensure, if child has higher rating than left, assign 1 more candies than left. Then act similarly fo right. Peak/Slope approach is too difficult | 
+
 
 
 
