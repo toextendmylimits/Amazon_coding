@@ -22,7 +22,28 @@
         return result
     ```
     </details>
+1. maximum book copies after each update to inventries  
+   https://leetcode.com/discuss/interview-question/4343132/Amazon-OA  
+    <details>
 
+    ```python
+    from collections import Counter
+    
+    def max_copies(updates):
+        counter = Counter()
+        result = []
+        for update in updates:
+            book_id = abs(update)
+            quantity_change = 1 if update > 0 else -1
+            counter[book_id] += quantity_change
+            result.append(max(counter.values()))
+    
+        return result
+    print(max_copies([6, 6, 2, -6, -2, -6])) # [1, 2, 2, 1, 1, 0]
+    print(max_copies([1, 2, -1, 2])) # [1, 1, 1, 2]       
+    ```
+    </details>
+   
 1. 给定一些待执行的任务的优先级，每次选择优先级最高并且具有该优先级的任务数量不少于2的任务，执行其中一个，另一个优先级减半，直到所有优先级为0或无满足条件的任务为止。求最终剩余的未执行的任务的优‍先级  
 第二题是一个array比如 1，3，5，10，10
 当有两个数字一样的时候，删除一个然后另一个除以2，所以变成1，3，5，5  不过要选择index最小的那两个。
