@@ -22,3 +22,38 @@
         return result
     ```
     </details>
+
+1. 给定一些待执行的任务的优先级，每次选择优先级最高并且具有该优先级的任务数量不少于2的任务，执行其中一个，另一个优先级减半，直到所有优先级为0或无满足条件的任务为止。求最终剩余的未执行的任务的优‍先级
+第二题是一个array比如 1，3，5，10，10
+当有两个数字一样的时候，删除一个然后另一个除以2，所以变成1，3，5，5  不过要选择index最小的那两个。
+然后变成 1，3，2最后就return这个
+https://www.1point3acres.com/bbs/thread-1024918-1-1.html
+
+    ```python
+    import heapq
+    
+    def execute_tasks(tasks):
+        heap = []
+        remain_tasks = []
+        for i, task in enumerate(tasks):
+            heapq.heappush(heap, ((-task, i)))
+        
+        remain_tasks = []
+    
+        while heap:
+            popped = heapq.heappop(heap)
+            popped_priority = popped[0]
+            
+            if heap and heap[0][0] == popped_priority:
+                    second = heapq.heappop(heap)
+                    heapq.heappush(heap, (-(-second[0] // 2), second[1]))
+            else:
+                remain_tasks.append(popped)
+        
+        remain_tasks.sort(key = lambda x : (x[1]))
+        return [-t[0] for t in remain_tasks] 
+    
+    print(execute_tasks([1, 3, 5, 10, 10]))
+    print(execute_tasks([6, 3, 1, 1, 1]))
+    ```
+    </details>‌‌‌
