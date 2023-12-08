@@ -64,26 +64,7 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
 1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。
    https://leetcode.com/discuss/interview-question/4374685/Amazon-OA-or-SDE-2-or-USA-or-Q1-%2B-Q2  
    https://www.1point3acres.com/bbs/thread-1029428-1-1.html
-    <details>
-
-    ```python
-    def can_reverse(s, left, right):
-        print(left, right)
-        while left < right:
-            if s[left] != s[right]:
-                return s[left] > s[right]
-            left += 1
-            right -= 1
-        return False
-    
-    def find(s, k):
-        count = 0
-        for start in range(len(s) - k + 1):
-            if can_reverse(s, start, start + k - 1):
-                count += 1
-        return count   
-    ```
-    </details>
+c
 
 1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
    Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)  
@@ -168,4 +149,23 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
             print(remove_duplicate("ABCBACDDAA")) # Empty String
             print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
         ```
+    </details>
+    <details>
+
+    ```python
+    import math
+    
+    def max_bag_size(perfect):
+        perfect_bag_size_map = {}
+        result = 0
+        for i in perfect:
+            square_root = int(math.sqrt(i))
+            if square_root * square_root != i or square_root not in perfect_bag_size_map:
+                perfect_bag_size_map[i] = 1
+                continue
+    
+            perfect_bag_size_map[i] = 1 + perfect_bag_size_map[square_root]
+            result = max(result, perfect_bag_size_map[i])
+        return result
+    ```
     </details>
