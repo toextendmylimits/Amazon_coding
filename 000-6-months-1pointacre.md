@@ -81,3 +81,53 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
         return count   
     ```
     </details>
+
+1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
+   Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)  
+    <details>
+        
+        ```python
+           def suitable(location, delivery_centers, distance):
+            total_distance = 0
+            for center in delivery_centers:
+                total_distance += abs(location - center) * 2
+                if total_distance > distance:
+                    return False
+                    
+            return True
+        
+        def get_leftmost_suitable_location(centers, left, right, distance):
+            result = -1
+            while left <= right:
+                mid = left + (right - left) // 2
+                if suitable(mid, centers, distance):
+                    result = mid
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            return result
+        
+        def get_rightmost_suitable_location(centers, left, right, distance):
+            result = -1
+            while left <= right:
+                mid = left + (right - left) // 2
+                if suitable(mid, centers, distance):
+                    result = mid
+                    left = mid + 1
+                else:
+                    right = mid - 1
+            return result
+        
+        def get_suitable_locations(centers, distance):
+            RIGHT_BOUNDARY = 10 ** 9
+            LEFT_BOUNDARY = - 10 ** 9
+            MID = 0
+            centers.sort()
+            leftmost_suitable_location = get_leftmost_suitable_location(centers, LEFT_BOUNDARY, MID, distance)
+            rightmost_suitable_location = get_rightmost_suitable_location(centers, MID, RIGHT_BOUNDARY, distance)
+            print(leftmost_suitable_location, rightmost_suitable_location)
+            return rightmost_suitable_location - leftmost_suitable_location + 1 
+        
+        print(get_suitable_locations([-2, 1, 0], 9))
+        ```
+    </details>
