@@ -67,7 +67,39 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
 c
 
 1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
-   Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)  
+   Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)
+    <details>
+
+    ```python
+            from collections import Counter
+            def remove_duplicate(s):
+                counter = Counter(s)
+                odd_letters = []
+                for letter in s:
+                    if counter[letter] % 2 != 0:
+                        odd_letters.append(letter)
+            
+                stack = []
+                selected = set()
+                letter_last_indice = {}
+                for i, letter in enumerate(odd_letters):
+                    letter_last_indice[letter] = i
+                print(odd_letters)
+                for i, letter in enumerate(odd_letters):
+                    if letter not in selected:
+                        while stack and letter < stack[-1] and letter_last_indice[stack[-1]] > i:
+                            selected.remove(stack.pop())
+                        stack.append(letter)
+                        selected.add(letter)
+                
+                return "".join(stack)
+            
+            print(remove_duplicate("CBCAAXA")) # BAX
+            print(remove_duplicate("ZYXZYZY")) # XYZ
+            print(remove_duplicate("ABCBACDDAA")) # Empty String
+            print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
+    ```
+    </details>   
     <details>
         
         ```python
@@ -118,38 +150,6 @@ c
 
 1. You are given a string S. In one move you can erase from S a pair of identical letters. Find the shortest possible string that can be created this way. If there are many such strings, choose the alphabetically (lexicographically) smallest one. Note that there is no limit to the number of moves.
    First remove all letters that appear even times. Then use a stack to add letters that are the smalled one so far. Use a hash set to save selected letters. Scan all letters, if a letter is not selected bofore, and is smaller than the stack's top element, and that top element also appears later, so pop that element, and marked it unselected, and repeat this step until the above condition doesn't meet. Later add the letter to the stack and mark it as visited. In the end, join letters in stack and return. Note, use "".join(stack)
-    <details>
-        
-        ```python
-            from collections import Counter
-            def remove_duplicate(s):
-                counter = Counter(s)
-                odd_letters = []
-                for letter in s:
-                    if counter[letter] % 2 != 0:
-                        odd_letters.append(letter)
-            
-                stack = []
-                selected = set()
-                letter_last_indice = {}
-                for i, letter in enumerate(odd_letters):
-                    letter_last_indice[letter] = i
-                print(odd_letters)
-                for i, letter in enumerate(odd_letters):
-                    if letter not in selected:
-                        while stack and letter < stack[-1] and letter_last_indice[stack[-1]] > i:
-                            selected.remove(stack.pop())
-                        stack.append(letter)
-                        selected.add(letter)
-                
-                return "".join(stack)
-            
-            print(remove_duplicate("CBCAAXA")) # BAX
-            print(remove_duplicate("ZYXZYZY")) # XYZ
-            print(remove_duplicate("ABCBACDDAA")) # Empty String
-            print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
-        ```
-    </details>
     <details>
 
     ```python
