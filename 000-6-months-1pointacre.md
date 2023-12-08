@@ -56,8 +56,9 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
         remain_tasks.sort(key = lambda x : (x[1]))
         return [-t[0] for t in remain_tasks] 
     
-    print(execute_tasks([1, 3, 5, 10, 10]))
-    print(execute_tasks([6, 3, 1, 1, 1]))
+    print(execute_tasks([1, 3, 5, 10, 10])) # [1, 3, 2]
+    print(execute_tasks([4, 4, 2, 1])) # [0]
+    print(execute_tasks([6, 6, 6, 1, 2, 2])) # [3, 6, 0]
     ```
     </details>‌‌‌
 
