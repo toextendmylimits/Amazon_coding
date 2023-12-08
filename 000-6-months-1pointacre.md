@@ -260,3 +260,54 @@ c
         return result
     ```
     </details>    
+
+8. Rat eat cheese
+    Given a n*n grid where each cell has one of three values :  
+    0 represents an empty cell  
+    1 represents there is a cheese in the cell  
+    2 represents there is a rat in the cell.  
+    https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023  
+    <details>
+
+        ```python
+        from collections import deque
+        
+        def eat_cheese(grid):
+            rows = len(grid)
+            cols = len(grid[0])
+            cheese_count = 0
+            queue = deque()
+            for r in range(rows):
+                for c in range(cols):
+                    if grid[r][c] == 1:
+                        cheese_count += 1
+                    elif grid[r][c] == 2:
+                        queue.append((r, c))
+            
+            time = -1
+            while queue:
+                level_size = len(queue)
+                cheese_count_nearby = 0
+                time += 1
+                for i in range(level_size):
+                    curr_row, curr_col = queue.popleft()
+        
+                    for row_offset, col_offset in [(-1, 0), (0, 1), (1, 0), (0, -1)]:
+                        next_row = curr_row + row_offset
+                        next_col = curr_col + col_offset
+                        if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols or grid[next_row][next_col] != 1:
+                            continue
+                        queue.append((next_row, next_col))
+                        grid[next_row][next_col] = 2
+                        cheese_count -= 1
+            
+                
+            
+            return time if cheese_count == 0 else -1
+        
+        grid = [[2,1, 1], [1, 1, 0], [0, 1, 1]]
+        print(eat_cheese(grid))
+        grid2 = [[2,1, 1], [0, 1, 1], [1, 0, 1]]
+        print(eat_cheese(grid2))
+        ```
+    </details>
