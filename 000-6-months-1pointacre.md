@@ -23,7 +23,9 @@
     ```
     </details>
 1. maximum book copies after each update to inventries  
-   https://leetcode.com/discuss/interview-question/4343132/Amazon-OA  
+   https://leetcode.com/discuss/interview-question/4343132/Amazon-OA
+   Very challenging to achieve O(N) time complexity. Key observation is if we have maximum copies of any book, then adding a book could potentially cause it to increase, and if so update it. The difficult is when removing a book, how to decide maximum copies of books after? If that book has maximum copies, then we need to know whether it is the only book that has maximum copies. If so, the maximum copies should decrease otherwise the maximum copies doesn't change. So the idea is to have two hash maps, one map book id with copies, the other map copies with book id, and they should change accordingly for each update.
+   
     <details>
 
     ```python
@@ -40,7 +42,42 @@
     
         return result
     print(max_copies([6, 6, 2, -6, -2, -6])) # [1, 2, 2, 1, 1, 0]
-    print(max_copies([1, 2, -1, 2])) # [1, 1, 1, 2]       
+    print(max_copies([1, 2, -1, 2])) # [1, 1, 1, 2]
+
+    # Approach 2
+    def get_max_copies(updates):
+        book_id_copies_map = defaultdict(int)
+        copies_book_ids_map = defaultdict(set)
+        max_copies = 0
+        result = []
+        for update in updates:
+            if update > 0:
+                book_id = update
+                current_copies = book_id_copies_map[book_id]
+        
+                if book_id in copies_book_ids_map[current_copies]:
+                    copies_book_ids_map[current_copies].remove(book_id)
+                
+                current_copies += 1
+                max_copies = max(max_copies, current_copies)
+                book_id_copies_map[book_id] = current_copies
+                copies_book_ids_map[current_copies].add(book_id)
+            else:
+                book_id = -update
+                current_copies = book_id_copies_map[book_id]
+                if current_copies == max_copies and len(copies_book_ids_map[current_copies]) == 1:
+                    max_copies -= 1
+                copies_book_ids_map[current_copies].remove(book_id)
+                
+                current_copies -= 1
+                copies_book_ids_map[current_copies].add(book_id)
+                book_id_copies_map[book_id] = current_copies
+            result.append(max_copies)
+        
+        return result
+
+    print(get_max_copies([6,6,3, 3,-6,-3,-6,-3])) #[1,2,2,2 2,,1,0]
+    print(get_max_copies([6, 6, 2, -6, -2, -6])) # [1, 2, 2, 1, 1, 0]   
     ```
     </details>
    
