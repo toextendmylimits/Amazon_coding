@@ -269,7 +269,7 @@ c
     https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023  
     <details>
 
-        ```python
+    ```python
         from collections import deque
         
         def eat_cheese(grid):
@@ -309,5 +309,5 @@ c
         print(eat_cheese(grid))
         grid2 = [[2,1, 1], [0, 1, 1], [1, 0, 1]]
         print(eat_cheese(grid2))
-        ```
+    ```
     </details>
