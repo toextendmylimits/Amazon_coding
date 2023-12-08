@@ -202,4 +202,31 @@ c
     Explanation: replace BBBUB with UUDDH to make the final string HUUDDHBB, which is stable
     https://leetcode.com/discuss/interview-question/4357263/Amazon-Online-Assessment-question  
    
-    Slidng window, same as leetcode 1234   
+    Slidng window, same as leetcode 1234
+    <details>
+
+    ```python
+    from collections import Counter
+    
+    def feasible(counter, limit):
+        for letter in counter:
+            if counter[letter] > limit:
+                return False
+    
+        return True
+    
+    def balancedString(s: str) -> int:
+        limit = len(s) // 4
+        counter = Counter(s)
+        left = 0
+        result = len(s)
+        for right in range(len(s)):
+            counter[s[right]] -= 1
+            while left < len(s) and feasible(counter, limit):
+                result = min(result, right - left + 1)
+                counter[s[left]] += 1
+                left += 1
+            
+        return result
+    ```
+    </details>    
