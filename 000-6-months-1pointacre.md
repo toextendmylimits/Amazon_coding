@@ -113,7 +113,7 @@ c
             return rightmost_suitable_location - leftmost_suitable_location + 1 
         
         print(get_suitable_locations([-2, 1, 0], 9))
-    ```
+        ```
     </details>   
 
 1. You are given a string S. In one move you can erase from S a pair of identical letters. Find the shortest possible string that can be created this way. If there are many such strings, choose the alphabetically (lexicographically) smallest one. Note that there is no limit to the number of moves.
