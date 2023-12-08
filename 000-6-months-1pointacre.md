@@ -39,7 +39,8 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
         heap = []
         remain_tasks = []
         for i, task in enumerate(tasks):
-            heapq.heappush(heap, ((-task, i)))
+            heap.append((-task, i))
+        heapq.heapify(heap)
         
         remain_tasks = []
     
@@ -53,12 +54,19 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
             else:
                 remain_tasks.append(popped)
         
-        remain_tasks.sort(key = lambda x : (x[1]))
+        remain_tasks.sort(key = lambda x : x[1])
+    
         return [-t[0] for t in remain_tasks] 
     
     print(execute_tasks([1, 3, 5, 10, 10])) # [1, 3, 2]
     print(execute_tasks([4, 4, 2, 1])) # [0]
     print(execute_tasks([6, 6, 6, 1, 2, 2])) # [3, 6, 0]
+    print(execute_tasks([6, 1, 6, 1, 3])) # [0,1]
+    print(execute_tasks([3,6,1,2,2,2])) # [3,6,0,2]
+    print(execute_tasks([3,6,1,1,2,2]))   #  [3,6,0,1]
+    print(execute_tasks([3,6,6,1,2,2])) # [0, 1]
+    print(execute_tasks([2,5,4,2,8,6,7,5,2]))  # [4,8,6,7,0]
+
     ```
     </details>‌‌‌
 
