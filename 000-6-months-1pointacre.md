@@ -152,3 +152,44 @@ c
             print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
     ```
     </details>
+
+1. Barcode Scanner
+   https://leetcode.com/discuss/interview-question/4368216/Amazon-OA-question%3A-Valid-barcodes-problem  
+
+    <details>
+
+    ```python
+    def validate(configuration):
+        INVALID_MESSAGE = "Invalid configuration"
+        barcodes = configuration.split("|")
+        if not barcodes:
+            return [ INVALID_MESSAGE ]
+        
+        barcode_length = 10
+        order_length = 4
+        order_config_value_map = {}
+        for barcode in barcodes:
+            if len(barcode) != barcode_length:
+                return [ INVALID_MESSAGE ]
+    
+            order_str = barcode[:order_length]
+            configuration_value = barcode[order_length:]
+            if not order_str.isdigit() or not configuration_value.isalnum():
+                return [ INVALID_MESSAGE ]
+            
+            order = int(order_str)
+            if order in order_config_value_map:
+                return [ INVALID_MESSAGE ]
+            
+            order_config_value_map[order] = configuration_value
+                     
+        sorted_order_config_value = [(order, configuration_value) for order, configuration_value in sorted(order_config_value_map.items())]
+        for i in range(len(sorted_order_config_value)):
+            if sorted_order_config_value[i][0] != i + 1:
+                return [ INVALID_MESSAGE ]
+        
+        return [configuration_value for order, configuration_value in sorted_order_config_value]
+    
+    print(validate("0002abcdef|0001fghijk"))
+    ```
+    </details>
