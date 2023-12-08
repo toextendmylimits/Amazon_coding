@@ -61,7 +61,9 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
     ```
     </details>‌‌‌
 
-1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。https://www.1point3acres.com/bbs/thread-1029428-1-1.html
+1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。
+   https://leetcode.com/discuss/interview-question/4374685/Amazon-OA-or-SDE-2-or-USA-or-Q1-%2B-Q2  
+   https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     <details>
 
     ```python
