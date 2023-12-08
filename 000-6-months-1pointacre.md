@@ -311,3 +311,35 @@ c
         print(eat_cheese(grid2))
     ```
     </details>
+
+1. Minimum amount of money  
+There are n products being sold on a shopping app. The price of the ith product is price[i]. The developers decided to give special gift cards to innovative customers. A gift card will be given if any customer buys a contiguous subsegment of products and at least 2 of the products have a matching price.  
+Find the minimum amount of money a customer needs to spend in order to get the gift card. If it is not possible for any customer to get a gift card, return -1.
+https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
+
+    The idea is to have map for prefix sum and index and map for price and its last index.
+
+    <details>
+        
+    ```python
+        def get_min_cost(prices):
+        prefix_sum = [0] * len(prices)
+        current_sum = 0
+        price_last_idx_map = {}
+        result = float('inf')
+        for i, price in enumerate(prices):
+            current_sum += price
+            prefix_sum[i] = current_sum
+            if price in price_last_idx_map:
+                last_idx = price_last_idx_map[price]
+                result = min(result, current_sum - prefix_sum[last_idx] + price)
+    
+            price_last_idx_map[price] = i
+      
+        return result
+    
+    print(get_min_cost([1, 2, 3, 1, 2, 1])) # 4
+    print(get_min_cost([1, 2, 1, 2])) # 4
+    print(get_min_cost([1, 100, 1, 7, 7])) # 14
+    ```
+    </details>
