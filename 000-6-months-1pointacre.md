@@ -312,7 +312,7 @@ c
     ```
     </details>
 
-1. Minimum amount of money  
+1. Minimum amount of money for shopping to get special reward
 There are n products being sold on a shopping app. The price of the ith product is price[i]. The developers decided to give special gift cards to innovative customers. A gift card will be given if any customer buys a contiguous subsegment of products and at least 2 of the products have a matching price.  
 Find the minimum amount of money a customer needs to spend in order to get the gift card. If it is not possible for any customer to get a gift card, return -1.
 https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
