@@ -71,7 +71,13 @@ rent letters |
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[20. Valid Parentheses](https://leetcode.com/problems/count-vowels-permutation) | 8/12 | YES | No need to use stack. Use count is enough
-|[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision)| 8/12 | YES | No need to use stack. Use count is enough
+|[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision)| 8/12 | YES | 
+
+## Merge Intervals
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)| 8/12 | NO | Easy
+
 
 
 
