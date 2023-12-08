@@ -193,3 +193,11 @@ c
     print(validate("0002abcdef|0001fghijk"))
     ```
     </details>
+
+1. Question : A string is stable when B,D,U,H are present n/4 times in the string , where n is the size of string.  
+    you are given a string, what is the length of minimum substring that has to replaced to make a string stable.  
+    
+    Example : Input string : HBBBUBBB  
+    output: 5  
+    Explanation: replace BBBUB with UUDDH to make the final string HUUDDHBB, which is stable  
+    Slidng window, same as leetcode 1234   
