@@ -78,6 +78,12 @@ rent letters |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)| 8/12 | NO | Easy
 
+## Sliding Windows
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[1234. Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string)| 8/12 | YES | If outside of window, each letter appears less than N / 4 times, then the widow is good 
+
+
 
 
 
