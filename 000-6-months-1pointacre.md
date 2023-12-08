@@ -134,3 +134,37 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
         print(get_suitable_locations([-2, 1, 0], 9))
         ```
     </details>
+
+1. You are given a string S. In one move you can erase from S a pair of identical letters. Find the shortest possible string that can be created this way. If there are many such strings, choose the alphabetically (lexicographically) smallest one. Note that there is no limit to the number of moves.
+    <details>
+        
+        ```python
+        from collections import Counter
+        def remove_duplicate(s):
+            counter = Counter(s)
+            odd_letters = []
+            for letter in s:
+                if counter[letter] % 2 != 0:
+                    odd_letters.append(letter)
+        
+            stack = []
+            selected = set()
+            letter_last_indice = {}
+            for i, letter in enumerate(odd_letters):
+                letter_last_indice[letter] = i
+            print(odd_letters)
+            for i, letter in enumerate(odd_letters):
+                if letter not in selected:
+                    while stack and letter < stack[-1] and letter_last_indice[stack[-1]] > i:
+                        selected.remove(stack.pop())
+                    stack.append(letter)
+                    selected.add(letter)
+            
+            return "".join(stack)
+        
+        print(remove_duplicate("CBCAAXA")) # BAX
+        print(remove_duplicate("ZYXZYZY")) # XYZ
+        print(remove_duplicate("ABCBACDDAA")) # Empty String
+        print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
+        ```
+    </details>
