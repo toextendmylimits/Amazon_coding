@@ -69,8 +69,6 @@ c
 1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
    Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)
     <details>
-
-    ```python
         
         ```python
            def suitable(location, delivery_centers, distance):
