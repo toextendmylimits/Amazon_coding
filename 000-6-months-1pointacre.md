@@ -70,7 +70,7 @@ c
    Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)
     <details>
         
-        ```python
+    ```python
            def suitable(location, delivery_centers, distance):
             total_distance = 0
             for center in delivery_centers:
@@ -113,7 +113,7 @@ c
             return rightmost_suitable_location - leftmost_suitable_location + 1 
         
         print(get_suitable_locations([-2, 1, 0], 9))
-        ```
+    ```
     </details>   
 
 1. You are given a string S. In one move you can erase from S a pair of identical letters. Find the shortest possible string that can be created this way. If there are many such strings, choose the alphabetically (lexicographically) smallest one. Note that there is no limit to the number of moves.
