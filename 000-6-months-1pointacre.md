@@ -362,3 +362,30 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     print(get_min_lag([3, 1, 6, 8, 9], [2, 3, 1, 7, 9])) # 5        
     ```
     </details>
+
+1. Minimum cost to buy n itmes
+   There are n items, each associated with 2 positive values a[i] and b[i]. There are infinitely many items of each type numbered from 1 to infinity. And the item numbered j of type i has a cost of a[i] + (j - 1) * b[i] units.  
+
+Determine the minimum possible cost to purchase exactly m items.  
+https://leetcode.com/discuss/interview-question/4055961/AMAZON-or-OA-or-N-items-at-minimum-cost
+
+Ex 1:
+n = 3, a= [2,1,1], b = [1,2,3], m = 4
+
+Total min cost to purcase = 1 (i=1, j=1) + 1 (i=2, j=1) + 2(i=0, j=1) + 3(i=0, j = 2) = 7
+    <details>
+        
+    ```python
+    import heapq
+    
+    def get_min_cost(a_prices, b_prices, items_count):
+        heap = []
+        prices_len = len(a_prices)
+        for j in range(1, prices_len):
+            for i in range(prices_len):
+                heapq.heappush(heap, a_prices[i] + (j - 1) * b_prices[i])
+        return sum(heapq.nsmallest(items_count, heap))
+    
+    print(get_min_cost([2,1,1], [1,2,3], 4)) # 7      
+    ```
+    </details>
