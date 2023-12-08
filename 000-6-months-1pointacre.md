@@ -199,5 +199,7 @@ c
     
     Example : Input string : HBBBUBBB  
     output: 5  
-    Explanation: replace BBBUB with UUDDH to make the final string HUUDDHBB, which is stable  
+    Explanation: replace BBBUB with UUDDH to make the final string HUUDDHBB, which is stable
+    https://leetcode.com/discuss/interview-question/4357263/Amazon-Online-Assessment-question  
+   
     Slidng window, same as leetcode 1234   
