@@ -153,19 +153,32 @@ c
     <details>
 
     ```python
-    import math
-    
-    def max_bag_size(perfect):
-        perfect_bag_size_map = {}
-        result = 0
-        for i in perfect:
-            square_root = int(math.sqrt(i))
-            if square_root * square_root != i or square_root not in perfect_bag_size_map:
-                perfect_bag_size_map[i] = 1
-                continue
-    
-            perfect_bag_size_map[i] = 1 + perfect_bag_size_map[square_root]
-            result = max(result, perfect_bag_size_map[i])
-        return result
+            from collections import Counter
+            def remove_duplicate(s):
+                counter = Counter(s)
+                odd_letters = []
+                for letter in s:
+                    if counter[letter] % 2 != 0:
+                        odd_letters.append(letter)
+            
+                stack = []
+                selected = set()
+                letter_last_indice = {}
+                for i, letter in enumerate(odd_letters):
+                    letter_last_indice[letter] = i
+                print(odd_letters)
+                for i, letter in enumerate(odd_letters):
+                    if letter not in selected:
+                        while stack and letter < stack[-1] and letter_last_indice[stack[-1]] > i:
+                            selected.remove(stack.pop())
+                        stack.append(letter)
+                        selected.add(letter)
+                
+                return "".join(stack)
+            
+            print(remove_duplicate("CBCAAXA")) # BAX
+            print(remove_duplicate("ZYXZYZY")) # XYZ
+            print(remove_duplicate("ABCBACDDAA")) # Empty String
+            print(remove_duplicate("AKFKFMOGKFB")) # AFKMOGB
     ```
     </details>
