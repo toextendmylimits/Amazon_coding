@@ -59,3 +59,25 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
     print(execute_tasks([6, 3, 1, 1, 1]))
     ```
     </details>‌‌‌
+
+1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。https://www.1point3acres.com/bbs/thread-1029428-1-1.html
+    <details>
+
+    ```python
+    def can_reverse(s, left, right):
+        print(left, right)
+        while left < right:
+            if s[left] != s[right]:
+                return s[left] > s[right]
+            left += 1
+            right -= 1
+        return False
+    
+    def find(s, k):
+        count = 0
+        for start in range(len(s) - k + 1):
+            if can_reverse(s, start, start + k - 1):
+                count += 1
+        return count   
+    ```
+    </details>
