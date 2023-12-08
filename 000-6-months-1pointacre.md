@@ -343,3 +343,22 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     print(get_min_cost([1, 100, 1, 7, 7])) # 14
     ```
     </details>
+
+1. Get minimum lag to connect data centers to servers  
+   https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
+   Question: Amazon, Online Assessment Questions | An AWS Client | Amazon Stock Prize | 10th September 2023 https://www.thejoboverflow.com/p/p1969/
+    <details>
+        
+    ```python
+    def get_min_lag(data_centers, servers):
+        result = 0
+        data_centers.sort()
+        servers.sort()
+        for i in range(len(data_centers)):
+            result += abs(data_centers[i] - servers[i])
+        
+        return result
+    
+    print(get_min_lag([3, 1, 6, 8, 9], [2, 3, 1, 7, 9])) # 5        
+    ```
+    </details>
