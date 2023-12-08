@@ -23,8 +23,12 @@
     ```
     </details>
 1. maximum book copies after each update to inventries  
-   https://leetcode.com/discuss/interview-question/4343132/Amazon-OA
-   Very challenging to achieve O(N) time complexity. Key observation is if we have maximum copies of any book, then adding a book could potentially cause it to increase, and if so update it. The difficult is when removing a book, how to decide maximum copies of books after? If that book has maximum copies, then we need to know whether it is the only book that has maximum copies. If so, the maximum copies should decrease otherwise the maximum copies doesn't change. So the idea is to have two hash maps, one map book id with copies, the other map copies with book id, and they should change accordingly for each update.
+   https://leetcode.com/discuss/interview-question/4343132/Amazon-OA  
+   Very challenging to achieve O(N) time complexity.  
+
+   Key observation is if we have maximum copies of any book, then adding a book could potentially cause it to increase, and if so update it. The difficult is when removing a book, how to decide maximum copies of books after? If that book has maximum copies, then we need to know whether it is the only book that has maximum copies. If so, the maximum copies should decrease otherwise the maximum copies doesn't change.  
+
+   So the idea is to have two hash maps, one map book id with copies, the other map copies with book id, and they should change accordingly for each update.
    
     <details>
 
