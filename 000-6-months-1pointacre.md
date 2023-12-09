@@ -527,9 +527,9 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     [2,1] -> 2  
     [1] -> 1  
 
-Total count is 1+2+2+1+2+1=9
+    Total count is 1+2+2+1+2+1=9  
 
-Use [4, 1, 2, 1, 3] as ane example, when encountering 1 for the first time, the subarrays that have 1 can start from anywhere before, and end anywhere after, i.e. [4, 1], [4, 1, 2 ], [4, 1, 2, 1], [4, 1, 2, 1, 3], [1, 2], [1, 2, 1], [1, 2, 1, 3]. When encounter 1 again, then the subarrays that have 1 can only start from previous occurence's next element, [2, 1], [2, 1, 3]  to avoid duplication.   
+    Use [4, 1, 2, 1, 3] as ane example, when encountering 1 for the first time, the subarrays that have 1 can start from anywhere before, and end anywhere after, i.e. [4, 1], [4, 1, 2 ], [4, 1, 2, 1], [4, 1, 2, 1, 3], [1, 2], [1, 2, 1], [1, 2, 1, 3]. When encounter 1 again, then the subarrays that have 1 can only start from previous occurence's next element, [2, 1], [2, 1, 3]  to avoid duplication.   
     <details>
         
     ```python
