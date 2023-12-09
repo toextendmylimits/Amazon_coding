@@ -135,6 +135,7 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
 1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。
    https://leetcode.com/discuss/interview-question/4374685/Amazon-OA-or-SDE-2-or-USA-or-Q1-%2B-Q2  
    https://www.1point3acres.com/bbs/thread-1029428-1-1.html
+   https://assets.leetcode.com/users/images/2fdd4ff7-b50b-4f7c-b719-2ada191ee427_1701965278.9690375.jpeg  
 
    <details>
        
