@@ -86,6 +86,8 @@ rent letters |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)| 9/12 | YES | Very difficult, memorize the code
 |[828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)| 9/12 | YES | Very difficult, maintain two last indices
+|[1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)| 9/12 | YES | Haven't done it yet
+
 
 
 
