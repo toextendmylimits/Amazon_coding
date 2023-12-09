@@ -476,15 +476,18 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     ```python
     import heapq
     
-    def get_min_cost(a_prices, b_prices, items_count):
-        heap = []
-        prices_len = len(a_prices)
-        for j in range(1, prices_len):
-            for i in range(prices_len):
-                heapq.heappush(heap, a_prices[i] + (j - 1) * b_prices[i])
-        return sum(heapq.nsmallest(items_count, heap))
+    def get_min_cost(base_prices, price_increases, items_count):
+        heap = [(price, i) for i, price in enumerate(base_prices)]
+        heapq.heapify(heap)
+        result = 0
+        for i in range(items_count):
+            price, idx = heapq.heappop(heap)
+            result += price
+            heapq.heappush(heap, (price + price_increases[idx], idx))
+        
+        return result
     
-    print(get_min_cost([2,1,1], [1,2,3], 4)) # 7      
+    print(get_min_cost([2,1,1], [1,2,3], 4)) # 7   
     ```
     </details>
 
