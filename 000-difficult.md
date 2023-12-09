@@ -1,4 +1,4 @@
-# Questions that appear in past 6 months but are difficult
+# Questions that appear in past 6 months but are difficult or description is not clear
 1. Count the number of ways to distribute toy cars among 3 children such that each child should not have more than K toy cars, and total number of distributed toy cars equals S.
   Question 2 of https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023
 
@@ -43,3 +43,4 @@ https://www.1point3acres.com/bbs/thread-1026637-1-1.html
 1. Q1 was about given an Array of numbers, for example {5, 1, 2, 1, 4, 5} which represent skills of employees..(Skills[i])
 How many teams you can form, given the Teamsize = 3 and MaxDiff = 2 which is the maximum difference allowed in skills
 https://leetcode.com/discuss/interview-question/1474497/amazon-oa
+https://algo.monster/problems/amazon_oa_count_maximum_teams
