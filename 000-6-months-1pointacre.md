@@ -516,3 +516,34 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     print(node.get_values()) # 5, 4, 4
     ```
     </details>
+
+1. Given an array, find the sum of count of distinct elements in all subarrays.
+    Eg: [1,2,1]    
+    subarrays -> count of distinct  
+    [1] -> 1  
+    [1,2] -> 2  
+    [1,2,1] -> 2  
+    [2] -> 1  
+    [2,1] -> 2  
+    [1] -> 1  
+
+Total count is 1+2+2+1+2+1=9
+
+Use [4, 1, 2, 1, 3] as ane example, when encountering 1 for the first time, the subarrays that have 1 can start from anywhere before, and end anywhere after, i.e. [4, 1], [4, 1, 2 ], [4, 1, 2, 1], [4, 1, 2, 1, 3], [1, 2], [1, 2, 1], [1, 2, 1, 3]. When encounter 1 again, then the subarrays that have 1 can only start from previous occurence's next element, [2, 1], [2, 1, 3]  to avoid duplication.   
+    <details>
+        
+    ```python
+    from collections import defaultdict
+    
+    def count_unique_elements(nums):
+        num_last_idx_map = defaultdict(lambda : -1)
+        result = 0
+        for i, num in enumerate(nums):
+            result += (i - num_last_idx_map[num]) * (len(nums) - i)
+            num_last_idx_map[num] = i
+        
+        return result
+    
+    print(count_unique_elements([1,2,1])) # 9
+    ```
+    </details>
