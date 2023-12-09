@@ -469,6 +469,8 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     n = 3, a= [2,1,1], b = [1,2,3], m = 4
 
     Total min cost to purcase = 1 (i=1, j=1) + 1 (i=2, j=1) + 2(i=0, j=1) + 3(i=0, j = 2) = 7
+
+    https://www.1point3acres.com/bbs/thread-1029821-1-1.html  
     <details>
         
     ```python
