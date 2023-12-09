@@ -81,6 +81,13 @@ rent letters |
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)| 8/12 | NO | Easy
 
 
+## String
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string| 9/12 | YES | Very difficult, memorize the code
+
+
+
 
 
 
