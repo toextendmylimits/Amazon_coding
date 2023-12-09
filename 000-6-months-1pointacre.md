@@ -136,6 +136,29 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
    https://leetcode.com/discuss/interview-question/4374685/Amazon-OA-or-SDE-2-or-USA-or-Q1-%2B-Q2  
    https://www.1point3acres.com/bbs/thread-1029428-1-1.html
 
+   <details>
+       
+   ```python
+    def count_smaller_str_reverse(s, substr_length):
+        def can_get_smaller_reverse(start, end):
+            while start < end:
+                if s[end] < s[start]:
+                    return True
+                start += 1
+                end -= 1
+            return False
+        
+        result = 0
+        for start in range(len(s) - substr_length + 1):
+            if can_get_smaller_reverse(start, start + substr_length - 1):
+                result += 1
+    
+        return result
+    
+    print(count_smaller_str_reverse("amazon", 3)) # 1
+    print(count_smaller_str_reverse("zyxwuv", 3)) # 4       
+   ```
+   </details>
 1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA  
    Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)
     <details>
