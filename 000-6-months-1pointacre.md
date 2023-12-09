@@ -135,9 +135,8 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
 1. 给定一个字符串s和长度k，问有多少个  长度为k的substring 在reverse后可以使得整个字符串更小。
    https://leetcode.com/discuss/interview-question/4374685/Amazon-OA-or-SDE-2-or-USA-or-Q1-%2B-Q2  
    https://www.1point3acres.com/bbs/thread-1029428-1-1.html
-c
 
-1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
+1. N delivery centers, find warehouse location https://leetcode.com/discuss/interview-question/3949864/Amazon-OA  
    Use binary search to find the left most location between (left boundary, 0) and right most location between(0, right boundary)
     <details>
         
@@ -187,6 +186,39 @@ c
     ```
     </details>   
 
+1. Cut wooden boards to create fence with at least a fixed number of boards and get the maximum height
+   [https://leetcode.com/discuss/interview-question/3949864/Amazon-OA  ](https://leetcode.com/discuss/interview-question/4272178/amazon)
+     
+   Use binary search to find the minimum heights. Left boundary is 0, right boundary is maximum height of all boards.  
+    <details>
+        
+    ```python
+     def is_feasible(heights, min_height, boards_needed):
+        count = 0
+        for height in heights:
+            count += height // min_height
+            if count >= boards_needed:
+                return True
+    
+        return False
+    
+    def get_fence_height(heights, boards_needed):
+        left = 0
+        right = max(heights)
+        result = 0
+        while left <= right:
+            mid = left + (right - left) // 2
+            if is_feasible(heights, mid, boards_needed):
+                result = mid
+                left = mid + 1
+            else:
+                right = mid - 1
+        return result
+    
+    print(get_fence_height([100, 5, 10], 4)) # 25
+    ```
+    </details>   
+    
 1. You are given a string S. In one move you can erase from S a pair of identical letters. Find the shortest possible string that can be created this way. If there are many such strings, choose the alphabetically (lexicographically) smallest one. Note that there is no limit to the number of moves.
    https://leetcode.com/discuss/interview-question/4370863/Amazon-or-OA-or-Erase-Pairs
    
