@@ -187,7 +187,7 @@ https://www.1point3acres.com/bbs/thread-1024918-1-1.html
     </details>   
 
 1. Cut wooden boards to create fence with at least a fixed number of boards and get the maximum height
-   [https://leetcode.com/discuss/interview-question/3949864/Amazon-OA  ](https://leetcode.com/discuss/interview-question/4272178/amazon)
+   https://leetcode.com/discuss/interview-question/4269348/amazon  
      
    Use binary search to find the minimum heights. Left boundary is 0, right boundary is maximum height of all boards.  
     <details>
