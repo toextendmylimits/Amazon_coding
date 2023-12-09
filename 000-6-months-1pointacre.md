@@ -429,3 +429,26 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     print(get_min_cost([2,1,1], [1,2,3], 4)) # 7      
     ```
     </details>
+
+
+1. Minimum inefficiency to install amazon servers. 00?10??1?1   
+   https://leetcode.com/discuss/interview-question/3927496/Amazon-OA
+
+   Just ignore question mark and check how many time a server is different to its previous one    
+    <details>
+        
+    ```python
+    def get_min_inefficiency(servers_locations):
+        filled_locations = [location for location in servers_locations if location != "?"]
+    
+        result = 0
+        for i in range(1, len(filled_locations)):
+            if filled_locations[i] != filled_locations[i - 1]:
+                result += 1
+    
+        return result
+        
+    
+    print(get_min_inefficiency("00?10??1?1")) # 3  
+    ```
+    </details>
