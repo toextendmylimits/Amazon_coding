@@ -38,3 +38,4 @@
 1. You have four lists: one for when funny movies are released (comedyReleaseTime), one for how long they last (comedyDuration), one for when drama movies are released (dramaReleaseTime), and one for how long they last (dramaDuration). A person can only watch one movie at a time. What is the earliest time a person end watching movies from both categories?
  https://leetcode.com/discuss/interview-question/4012096/Amazon-OA
 https://www.1point3acres.com/bbs/thread-1029588-1-1.html
+https://www.1point3acres.com/bbs/thread-1026637-1-1.html
