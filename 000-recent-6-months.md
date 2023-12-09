@@ -84,7 +84,9 @@ rent letters |
 ## String
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string| 9/12 | YES | Very difficult, memorize the code
+|[2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)| 9/12 | YES | Very difficult, memorize the code
+|[828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)| 9/12 | YES | Very difficult, maintain two last indices
+
 
 
 
