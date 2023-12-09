@@ -452,3 +452,67 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
     print(get_min_inefficiency("00?10??1?1")) # 3  
     ```
     </details>
+
+1. Amazon processor segments max non-increasing sublists 
+   [https://leetcode.com/discuss/interview-question/3927496/Amazon-OA](https://leetcode.com/discuss/interview-question/3925228/Amazon-Student-Program-OA-Questions-Compilation)
+
+   Typical single linked list problem. Don't forget to sever the link from previous node if a node becomes new head, i.e. its data is greater than previous element's data.  
+    <details>
+        
+    ```python
+    class Node:
+        def __init__(self, data):
+            self.data = data
+            self.next = None
+        
+        def get_values(self):
+            current = self
+            result = []
+            while current:
+                result.append(current.data)
+                current = current.next
+            
+            return result
+    
+    def get_largest_sublist(head):
+        if not head:
+            return head
+        
+        max_len = 1
+        result_sublist = head
+        current_head = head
+        current_segment = head
+        next_segment = head.next
+        current_len = 1
+        while next_segment:
+            if next_segment.data <= current_segment.data:
+                current_len += 1
+                if current_len > max_len:
+                    result_sublist = current_head
+            else:
+                current_len = 1
+                current_head = next_segment
+                current_segment.next = None
+    
+            current_segment = next_segment
+            next_segment = next_segment.next
+        
+        return result_sublist
+    
+    def add(values):
+        if not values:
+            return None
+        
+        head = Node(values[0])
+        current = head
+        for i in range(1, len(values)):
+            current.next = Node(values[i])
+            current = current.next
+        
+        return head
+    
+    
+    node = get_largest_sublist(add([2, 5, 4, 4, 5]))
+    print(node.get_values()) # 5, 4, 4
+    ```
+    </details>
