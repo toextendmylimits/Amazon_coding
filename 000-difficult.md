@@ -45,3 +45,7 @@ https://www.1point3acres.com/bbs/thread-1026637-1-1.html
 How many teams you can form, given the Teamsize = 3 and MaxDiff = 2 which is the maximum difference allowed in skills
 https://leetcode.com/discuss/interview-question/1474497/amazon-oa
 https://algo.monster/problems/amazon_oa_count_maximum_teams
+
+1.  Maximum length of subarray product equal to 1, return int.
+    https://www.1point3acres.com/bbs/thread-1015435-1-1.html
+   https://leetcode.com/discuss/interview-question/1692832/amazon-online-assessment-product-of-1
