@@ -334,7 +334,7 @@ https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     Explanation: replace BBBUB with UUDDH to make the final string HUUDDHBB, which is stable
     https://leetcode.com/discuss/interview-question/4357263/Amazon-Online-Assessment-question  
    
-    Slidng window, same as leetcode 1234
+    Slidng window, same as leetcode 1234. The key is to find a window of strings that outside the window, all characters appear less than n // 4 times.  
     <details>
 
     ```python
