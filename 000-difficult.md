@@ -54,5 +54,8 @@ output: 5  解释：[1,-1,-1,1,1]
    https://leetcode.com/discuss/interview-question/1692832/amazon-online-assessment-product-of-1
 
 1. Scholarship test mean rank
-   https://www.1point3acres.com/bbs/thread-1001645-1-1.html  
+   https://www.1point3acres.com/bbs/thread-1001645-1-1.html
+
+1. 有n个亚麻员工，把员工的工作经验年数放在一个experience array，比如n = 6, experience = [1,4,1,3,5,6]
+   https://www.1point3acres.com/bbs/thread-997676-1-1.html
 
