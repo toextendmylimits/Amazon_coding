@@ -101,18 +101,21 @@ https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     
         processes_not_execute = []
     
-        while heap:
+        while heap and heap[0][0] != 0:
             negative_highest_priority, idx = heapq.heappop(heap)
             
             if heap and heap[0][0] == negative_highest_priority:
                 heapq.heappush(heap, (-(-negative_highest_priority // 2), heapq.heappop(heap)[1]))
             else:
-                processes_not_execute.append((-negative_highest_priority, idx))
+                processes_not_execute.append((negative_highest_priority, idx))
+        
+        processes_not_execute.extend(heap)
         
         processes_not_execute.sort(key = lambda priroity_idx_pair : priroity_idx_pair[1])
     
-        return [priroity_idx_pair[0] for priroity_idx_pair in processes_not_execute] 
+        return [-priroity_idx_pair[0] for priroity_idx_pair in processes_not_execute] 
     
+    print(get_priorities_after_execution([1, 1, 1, 1])) # [0, 0]
     print(get_priorities_after_execution([1, 3, 5, 10, 10])) # [1, 3, 2]
     print(get_priorities_after_execution([4, 4, 2, 1])) # [0]
     print(get_priorities_after_execution([6, 6, 6, 1, 2, 2])) # [3, 6, 0]
@@ -120,7 +123,6 @@ https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     print(get_priorities_after_execution([3,6,1,2,2,2])) # [3,6,0,2]
     print(get_priorities_after_execution([3,6,1,1,2,2]))   #  [3,6,0,1]
     print(get_priorities_after_execution([3,6,6,1,2,2])) # [0, 1]
-    print(get_priorities_after_execution([2,5,4,2,8,6,7,5,2]))  # [4,8,6,7,0]
 
     ```
     </details>‌‌‌
