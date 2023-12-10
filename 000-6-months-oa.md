@@ -1,4 +1,4 @@
-# Questions from 1pointacre
+# Questions from last 6 months online assessment
 1. Given a list of ricebags, choose a set of perfect ricebags with maximum size. A perfect ricebag set obeys the following conditions:  
     a. Atleast size of 2   
     b. When sorted, ricebags[i]*ricebags[i]=ricebags[i+1] , for all 0<=i<=N(length of ricebags)  
