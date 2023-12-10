@@ -46,8 +46,8 @@
             result.append(max(counter.values()))
     
         return result
-    print(max_copies([6, 6, 2, -6, -2, -6])) # [1, 2, 2, 1, 1, 0]
-    print(max_copies([1, 2, -1, 2])) # [1, 1, 1, 2]
+print(get_max_copies([6,6,3, 3,-6,-3,-6,-3])) #[1,2,2,2 2,1,1,0]
+print(get_max_copies([6, 6, 2, -6, -2, -6])) # [1, 2, 2, 1, 1, 0]  
 
     # Approach 2
     def get_max_copies(updates):
