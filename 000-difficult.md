@@ -53,3 +53,6 @@ output: 5  解释：[1,-1,-1,1,1]
     https://www.1point3acres.com/bbs/thread-1015435-1-1.html
    https://leetcode.com/discuss/interview-question/1692832/amazon-online-assessment-product-of-1
 
+1. Scholarship test mean rank
+   https://www.1point3acres.com/bbs/thread-1001645-1-1.html  
+
