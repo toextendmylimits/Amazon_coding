@@ -89,6 +89,10 @@ rent letters |
 |[1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)| 9/12 | YES | Haven't done it yet
 
 
+## Not sure category
+1567. Maximum Length of Subarray With Positive Product
+
+
 
 
 
