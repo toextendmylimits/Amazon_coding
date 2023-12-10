@@ -50,3 +50,8 @@ https://algo.monster/problems/amazon_oa_count_maximum_teams
 1.  Maximum length of subarray product equal to 1, return int.
     https://www.1point3acres.com/bbs/thread-1015435-1-1.html
    https://leetcode.com/discuss/interview-question/1692832/amazon-online-assessment-product-of-1
+
+1. Maximum length of subarray product equal to 1, return int.  
+input: [1,-1,-1,1,1,-1]  
+output: 5  解释：[1,-1,-1,1,1]  
+https://www.1point3acres.com/bbs/thread-1015435-1-1.html  
