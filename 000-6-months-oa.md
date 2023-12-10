@@ -11,6 +11,7 @@
     def max_bag_size(perfect):
         perfect_bag_size_map = {}
         result = 0
+        perfect.sort()
         for i in perfect:
             square_root = int(math.sqrt(i))
             if square_root * square_root != i or square_root not in perfect_bag_size_map:
