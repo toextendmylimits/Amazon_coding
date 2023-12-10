@@ -7,7 +7,8 @@
     A Maximum profitable group is a subarray of the array that meets the following condition:
     subarray[i] >= max(subarray[i] + subarray[i+1] + ... + subarray[j]) OR subarray[j] >= max(subarray[i] + subarray[i+1] + ... + subarray[j])
     https://leetcode.com/discuss/interview-question/3871019/Amazon-OA  
-  
+
+    A better solution is here: https://www.1point3acres.com/bbs/thread-1003658-1-1.html  
     Just memorize the code for now  
     <details>
   
