@@ -95,37 +95,32 @@ https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     ```python
     import heapq
     
-    def execute_tasks(tasks):
-        heap = []
-        remain_tasks = []
-        for i, task in enumerate(tasks):
-            heap.append((-task, i))
+    def get_priorities_after_execution(priorities):
+        heap = [(-priority, i) for i, priority in enumerate(priorities)]
         heapq.heapify(heap)
-        
-        remain_tasks = []
+    
+        processes_not_execute = []
     
         while heap:
-            popped = heapq.heappop(heap)
-            popped_priority = popped[0]
+            negative_highest_priority, idx = heapq.heappop(heap)
             
-            if heap and heap[0][0] == popped_priority:
-                    second = heapq.heappop(heap)
-                    heapq.heappush(heap, (-(-second[0] // 2), second[1]))
+            if heap and heap[0][0] == negative_highest_priority:
+                heapq.heappush(heap, (-(-negative_highest_priority // 2), heapq.heappop(heap)[1]))
             else:
-                remain_tasks.append(popped)
+                processes_not_execute.append((-negative_highest_priority, idx))
         
-        remain_tasks.sort(key = lambda x : x[1])
+        processes_not_execute.sort(key = lambda priroity_idx_pair : priroity_idx_pair[1])
     
-        return [-t[0] for t in remain_tasks] 
+        return [priroity_idx_pair[0] for priroity_idx_pair in processes_not_execute] 
     
-    print(execute_tasks([1, 3, 5, 10, 10])) # [1, 3, 2]
-    print(execute_tasks([4, 4, 2, 1])) # [0]
-    print(execute_tasks([6, 6, 6, 1, 2, 2])) # [3, 6, 0]
-    print(execute_tasks([6, 1, 6, 1, 3])) # [0,1]
-    print(execute_tasks([3,6,1,2,2,2])) # [3,6,0,2]
-    print(execute_tasks([3,6,1,1,2,2]))   #  [3,6,0,1]
-    print(execute_tasks([3,6,6,1,2,2])) # [0, 1]
-    print(execute_tasks([2,5,4,2,8,6,7,5,2]))  # [4,8,6,7,0]
+    print(get_priorities_after_execution([1, 3, 5, 10, 10])) # [1, 3, 2]
+    print(get_priorities_after_execution([4, 4, 2, 1])) # [0]
+    print(get_priorities_after_execution([6, 6, 6, 1, 2, 2])) # [3, 6, 0]
+    print(get_priorities_after_execution([6, 1, 6, 1, 3])) # [0,1]
+    print(get_priorities_after_execution([3,6,1,2,2,2])) # [3,6,0,2]
+    print(get_priorities_after_execution([3,6,1,1,2,2]))   #  [3,6,0,1]
+    print(get_priorities_after_execution([3,6,6,1,2,2])) # [0, 1]
+    print(get_priorities_after_execution([2,5,4,2,8,6,7,5,2]))  # [4,8,6,7,0]
 
     ```
     </details>‌‌‌
