@@ -285,38 +285,44 @@ https://www.1point3acres.com/bbs/thread-1029428-1-1.html
     <details>
 
     ```python
-    def validate(configuration):
-        INVALID_MESSAGE = "Invalid configuration"
-        barcodes = configuration.split("|")
+    def validate(s):
+        ERROR = "Invalid Configuration"
+        barcodes = s.split("|")
         if not barcodes:
-            return [ INVALID_MESSAGE ]
+            return [ ERROR ]
         
-        barcode_length = 10
-        order_length = 4
+        ORDER_LENGTH = 4
+        CONFIG_VALUE_LENGTH = 10
         order_config_value_map = {}
         for barcode in barcodes:
-            if len(barcode) != barcode_length:
-                return [ INVALID_MESSAGE ]
-    
-            order_str = barcode[:order_length]
-            configuration_value = barcode[order_length:]
-            if not order_str.isdigit() or not configuration_value.isalnum():
-                return [ INVALID_MESSAGE ]
+            barcode_length = len(barcode)
+            if barcode_length > CONFIG_VALUE_LENGTH + ORDER_LENGTH or barcode_length < CONFIG_VALUE_LENGTH + 1:
+                return [ ERROR ]
+            
+            config_value_start_idx = barcode_length - CONFIG_VALUE_LENGTH
+            order_str = barcode[ : config_value_start_idx]
+            if not order_str.isdigit():
+                return [ ERROR ]
+            config_value = barcode[config_value_start_idx : ]
+            if not config_value.isalnum():
+                return [ERROR]
             
             order = int(order_str)
             if order in order_config_value_map:
-                return [ INVALID_MESSAGE ]
+                return [ ERROR]
             
-            order_config_value_map[order] = configuration_value
-                     
-        sorted_order_config_value = [(order, configuration_value) for order, configuration_value in sorted(order_config_value_map.items())]
-        for i in range(len(sorted_order_config_value)):
-            if sorted_order_config_value[i][0] != i + 1:
-                return [ INVALID_MESSAGE ]
+            order_config_value_map[order] = config_value
         
-        return [configuration_value for order, configuration_value in sorted_order_config_value]
+        result = []
+        for i, order_config_value_pair in enumerate(sorted(order_config_value_map.items())):
+            order = order_config_value_pair[0]
+            if order != i + 1:
+                return [ ERROR ]
+            result.append(order_config_value_pair[1])
+        
+        return result
     
-    print(validate("0002abcdef|0001fghijk"))
+    print(validate("0002f7c22e7904|000176a3a4d214|000305d29f4a4b")) # ['76a3a4d214', 'f7c22e7904', '05d29f4a4b']
     ```
     </details>
 
