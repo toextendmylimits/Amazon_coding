@@ -2,9 +2,9 @@
 1. Count the number of ways to distribute toy cars among 3 children such that each child should not have more than K toy cars, and total number of distributed toy cars equals S.
   Question 2 of https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023
 
-  <details>
-      
-  ```python
+    <details>
+    
+    ```python
     def distribute_toys(toys, max_toys_for_each):
         result = 0
         for first in range(max_toys_for_each + 1):
@@ -15,7 +15,7 @@
         return result
     
     print(distribute_toys(2, 2)) # 6
-          
+        
     ```
     </details>
 
