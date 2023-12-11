@@ -154,43 +154,30 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
    <details>
 
       ```python
-      class TreeNode:
-          def __init__(self, val):
-              self.val = val
-              self.reports = set()
-          
-      def count_reports(node, id_reports_count_map):
-          if not node:
-              return 0
-      
-          count = 1
-          for report in node.reports:
-              count += count_reports(report, id_reports_count_map)
-      
-          id_reports_count_map[node.val] = count - 1
-          
-          return count
-      
-      def create_hierachy(relations):
-          root = TreeNode(1)
-          employee_id_nodes_map = { root.val : root}
-          for i in range(len(relations)):
-              employee_id = relations[i]
-              report = i + 2
-              if employee_id not in employee_id_nodes_map:
-                  employee_id_nodes_map[employee_id] = TreeNode(employee_id)
-                  
-              if report not in employee_id_nodes_map:
-                  employee_id_nodes_map[report] = TreeNode(report)
-                  
-              employee_id_nodes_map[employee_id].reports.add(employee_id_nodes_map[report])
-          
-          id_reports_count_map = {}
-          count_reports(root, id_reports_count_map)
-      
-          return [id_reports_count_map[id] for id in range(1, len(id_reports_count_map) + 1)]
-      
-      print(create_hierachy([1, 1, 3, 3]))      
+   from collections import defaultdict
+   
+   def get_reports(bosses):
+       employee_reports_map = defaultdict(list)
+       for i, boss in enumerate(bosses):
+           employee_reports_map[boss].append(i + 2)
+       
+       employee_reports_count = defaultdict(int)
+   
+       def count_reports(employee):
+           count = 0
+           
+           for report in employee_reports_map[employee]:
+               count += 1 + count_reports(report)
+           
+           employee_reports_count[employee] = count
+   
+           return count
+       
+       count_reports(1)
+   
+       return [count for employee, count in sorted(employee_reports_count.items())]
+
+print(get_reports([1, 1, 3, 3]))    
       ```
    </details>
 
