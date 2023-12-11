@@ -25,7 +25,28 @@
     subarray[i] >= max(subarray[i] + subarray[i+1] + ... + subarray[j]) OR subarray[j] >= max(subarray[i] + subarray[i+1] + ... + subarray[j])
     https://leetcode.com/discuss/interview-question/3871019/Amazon-OA  
 
-    A better solution is here: https://www.1point3acres.com/bbs/thread-1003658-1-1.html  
+    A better solution is here: https://www.1point3acres.com/bbs/thread-1003658-1-1.html
+    <details>
+      
+    ```python
+    def count_groups(nums):
+        MAX_VALUE = float("inf")
+        result = 0
+        stack = []
+        for right in range(len(nums) + 1):
+            curr = MAX_VALUE if right == len(nums) else nums[right]
+            while stack and nums[stack[-1]] < curr:
+                j = stack.pop()
+                left = stack[-1] if stack else -1
+                result += (right - j) + (j - left - 1)
+            stack.append(right)
+        
+        return result
+    
+    print(count_groups([2, 3, 2])) # 5
+    print(count_groups([5,3,1,3,5])) # 15      
+    ```
+    </details> 
     Just memorize the code for now  
     <details>
   
