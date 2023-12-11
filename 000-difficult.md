@@ -4,7 +4,7 @@
 
   <details>
       
-    ```python
+  ```python
     def distribute_toys(toys, max_toys_for_each):
         result = 0
         for first in range(max_toys_for_each + 1):
