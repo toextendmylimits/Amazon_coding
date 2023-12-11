@@ -81,7 +81,8 @@
  https://leetcode.com/discuss/interview-question/4012096/Amazon-OA  
 https://www.1point3acres.com/bbs/thread-1029588-1-1.html  
 https://www.1point3acres.com/bbs/thread-1026637-1-1.html
-https://www.1point3acres.com/bbs/thread-1015435-1-1.html  
+https://www.1point3acres.com/bbs/thread-1015435-1-1.html
+   For the first movie to watch, we have two choices, to watch comedy or drama first. Let's explore both options. If we watch comedy first, then we need to check all dramas, for each drama,its earleist end time is max(start time, comedy's earliest end time) + duration. So the smallest value is the earliest end time we can wath any drama. Similary we can find teh earliest end time we can watch comedy. 
     <details>
 
     ```python
