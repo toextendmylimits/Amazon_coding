@@ -25,7 +25,7 @@
     subarray[i] >= max(subarray[i] + subarray[i+1] + ... + subarray[j]) OR subarray[j] >= max(subarray[i] + subarray[i+1] + ... + subarray[j])
     https://leetcode.com/discuss/interview-question/3871019/Amazon-OA  
 
-    A better solution is here: https://www.1point3acres.com/bbs/thread-1003658-1-1.html
+    A better solution is here: https://www.1point3acres.com/bbs/thread-1003658-1-1.html  
    第二题思考了一下觉得就是单调栈。单调递减。  
    对每个元素J找左边第一个比他大的位置L和右边第一个比他大的位置R。然后J是L-1 .. R-1的最大值，这个时候计算L-1 .. J 的子数组数量 + J ..R-1子数组数量。  
    具体实现的话：当遍历到R的时候，会弹栈出J，此时栈顶是L，然后累加r - j  + j - l  - 1。  
