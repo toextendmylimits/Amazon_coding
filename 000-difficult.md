@@ -85,23 +85,23 @@ https://www.1point3acres.com/bbs/thread-1015435-1-1.html
     <details>
 
     ```python
-  def get_min_time(comedy_release, comedy_duration, drama_release, drama_duration):
-      def get_min_time_watch_first_category_earlier(category_1_release, category_1_duration, category_2_release, category_2_duration):
-          category_1_earliest_end_time = min([release_time + duration for release_time, duration in zip(category_1_release, category_1_duration)])
-          category_2_earliest_end_time = float("inf")
-          for release_time, duration in zip(category_2_release, category_2_duration):
-              start_time = max(release_time, category_1_earliest_end_time)
-              end_time = start_time + duration
-              category_2_earliest_end_time = min(category_2_earliest_end_time, end_time)
-  
-          return category_2_earliest_end_time
-      
-      min_time_watch_comedy_first = get_min_time_watch_first_category_earlier(comedy_release, comedy_duration, drama_release, drama_duration)
-      min_time_watch_drama_first = get_min_time_watch_first_category_earlier(drama_release, drama_duration, comedy_release, comedy_duration)
-      return min(min_time_watch_comedy_first, min_time_watch_drama_first)
-  
-  print(get_min_time([1,4],[3,2],[5,2],[2,2])) #6
-  print(get_min_time([1,2,3],[1,1,1],[1,2,3],[10,5,1])) #4    
+    def get_min_time(comedy_release, comedy_duration, drama_release, drama_duration):
+        def get_min_time_watch_first_category_earlier(category_1_release, category_1_duration, category_2_release, category_2_duration):
+            category_1_earliest_end_time = min([release_time + duration for release_time, duration in zip(category_1_release, category_1_duration)])
+            category_2_earliest_end_time = float("inf")
+            for release_time, duration in zip(category_2_release, category_2_duration):
+                start_time = max(release_time, category_1_earliest_end_time)
+                end_time = start_time + duration
+                category_2_earliest_end_time = min(category_2_earliest_end_time, end_time)
+    
+            return category_2_earliest_end_time
+        
+        min_time_watch_comedy_first = get_min_time_watch_first_category_earlier(comedy_release, comedy_duration, drama_release, drama_duration)
+        min_time_watch_drama_first = get_min_time_watch_first_category_earlier(drama_release, drama_duration, comedy_release, comedy_duration)
+        return min(min_time_watch_comedy_first, min_time_watch_drama_first)
+    
+    print(get_min_time([1,4],[3,2],[5,2],[2,2])) #6
+    print(get_min_time([1,2,3],[1,1,1],[1,2,3],[10,5,1])) #4    
     ```
     </details>
 1. Q1 was about given an Array of numbers, for example {5, 1, 2, 1, 4, 5} which represent skills of employees..(Skills[i])
