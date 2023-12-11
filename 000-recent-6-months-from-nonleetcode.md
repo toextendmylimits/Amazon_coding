@@ -177,7 +177,7 @@ day[i-k] >= day[i-k+1] >= ... day[i-1] >= day[i] <= day[i+1] ... <= day[i+k-1] <
    
        return [count for employee, count in sorted(employee_reports_count.items())]
 
-   print(get_reports([1, 1, 3, 3]))    
+   print(get_reports([1, 1, 3, 3]))    # [4, 0, 2, 0, 0]
       ```
    </details>
 
