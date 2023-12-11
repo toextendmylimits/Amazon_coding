@@ -3,21 +3,21 @@
   Question 2 of https://leetcode.com/discuss/interview-question/4106381/Amazon-Online-Assessment-2023
 
   <details>
+      
+    ```python
+    def distribute_toys(toys, max_toys_for_each):
+        result = 0
+        for first in range(max_toys_for_each + 1):
+            for second in range(max_toys_for_each + 1):
+                third = toys - first - second
+                if 0 <= third <= max_toys_for_each:
+                    result += 1
+        return result
     
-  ```python
-  def distribute_toys(toys, max_toys_for_each):
-      result = 0
-      for first in range(max_toys_for_each + 1):
-          for second in range(max_toys_for_each + 1):
-              third = toys - first - second
-              if 0 <= third <= max_toys_for_each:
-                  result += 1
-      return result
-  
-  print(distribute_toys(2, 2)) # 6
-        
-  ```
-  </details>
+    print(distribute_toys(2, 2)) # 6
+          
+    ```
+    </details>
 
 1. Suppose we have an array representing share prices for n months, for example, [1, 3, 2, 4] with n=5.
 
