@@ -12,3 +12,4 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 3. parking garage
 4. 设计储存和搜索log的系统
 5. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
+6. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
