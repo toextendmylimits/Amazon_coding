@@ -8,3 +8,4 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 2. Design a system thatt will sync browser bookmarks across devices.
  https://www.1point3acres.com/bbs/thread-1030912-1-1.html
 1. design rate limiter for aws
+2. 然后设计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
