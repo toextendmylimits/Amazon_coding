@@ -9,4 +9,5 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
  https://www.1point3acres.com/bbs/thread-1030912-1-1.html
 1. design rate limiter for aws
 2. 然后设计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
-3. parking garage 
+3. parking garage
+4. 设计储存和搜索log的系统
