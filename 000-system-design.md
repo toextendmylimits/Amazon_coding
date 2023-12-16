@@ -11,3 +11,4 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 2. 然后设计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
 3. parking garage
 4. 设计储存和搜索log的系统
+5. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
