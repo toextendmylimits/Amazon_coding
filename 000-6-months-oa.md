@@ -472,7 +472,8 @@ https://leetcode.com/discuss/interview-question/4208161/Amazon-OA
 
     Total min cost to purcase = 1 (i=1, j=1) + 1 (i=2, j=1) + 2(i=0, j=1) + 3(i=0, j = 2) = 7
 
-    https://www.1point3acres.com/bbs/thread-1029821-1-1.html  
+    https://www.1point3acres.com/bbs/thread-1029821-1-1.html
+    https://stackoverflow.com/questions/76554893/can-this-problem-be-optimized-with-dynamic-programming
     <details>
         
     ```python
