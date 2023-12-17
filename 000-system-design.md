@@ -5,7 +5,8 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 1. SD设计一个least recent play song list user会一直在点歌听歌要实时的返回最近听过的20首歌自己这轮没有发挥得很好感觉自己一开始很迷茫但是我有很注重沟通
     https://www.1point3acres.com/bbs/thread-1032975-1-1.html
 1. unique ID generator
-2. Design a system thatt will sync browser bookmarks across devices.
+2. Design TinyURL
+3. Design a system thatt will sync browser bookmarks across devices.
  https://www.1point3acres.com/bbs/thread-1030912-1-1.html
 1. design rate limiter for aws
 2. 然后设计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
