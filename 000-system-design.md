@@ -17,4 +17,6 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 7. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
 然后问了下一开始没有用户数据怎么办，答曰，用以往所有用户数据生产，可以结合trend
 8. Amazon hub locker https://iq.opengenus.org/system-design-of-amazon-hub-locker-service/
-9. Engine to generate ads for customer websites based on rules and metrics. 
+9. Engine to generate ads for customer websites based on rules and metrics.
+10. Medium: Design a distributed key-value store. (https://www.careercup.com/question?id=5630346370458112)
+11. Hard: Design a scalable social network. (https://www.educative.io/courses/grokking-the-system-design-interview/B8nMkqBWONo)
