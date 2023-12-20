@@ -6,7 +6,6 @@ https://www.1point3acres.com/bbs/thread-1033160-1-1.html
     https://www.1point3acres.com/bbs/thread-1032975-1-1.html
    https://leetcode.com/discuss/interview-question/system-design/243604/Design-a-real-time-dashboard-showing-the-most-played-songs
 1. unique ID generator
-2. Design TinyURL
 3. Design a system thatt will sync browser bookmarks across devices.
  https://www.1point3acres.com/bbs/thread-1030912-1-1.html
 1. design rate limiter for aws
