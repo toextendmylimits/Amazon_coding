@@ -4,6 +4,7 @@
 https://www.1point3acres.com/bbs/thread-1033160-1-1.html
 1. SD设计一个least recent play song list user会一直在点歌听歌要实时的返回最近听过的20首歌自己这轮没有发挥得很好感觉自己一开始很迷茫但是我有很注重沟通
     https://www.1point3acres.com/bbs/thread-1032975-1-1.html
+   https://leetcode.com/discuss/interview-question/system-design/243604/Design-a-real-time-dashboard-showing-the-most-played-songs
 1. unique ID generator
 2. Design TinyURL
 3. Design a system thatt will sync browser bookmarks across devices.
