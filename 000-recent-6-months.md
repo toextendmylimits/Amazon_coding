@@ -95,7 +95,8 @@ rent letters |
 2355. Maximum Number of Books You Can Take
 272. Substring With Largest Variance
 
-
+## List of questions to memorize
+|[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
 
 
 
