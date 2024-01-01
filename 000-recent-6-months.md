@@ -35,7 +35,7 @@
 ## Greedy
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Process most frequent characters first so use max heap | 
+|[767. Reorganize String](https://leetcode.com/problems/reorganize-string)| 4/12, 1/1/24 | YES | Process most frequent characters first so use max heap | 
 |[2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string) | 4/12 | YES | Use hash set to check whether there is duplicate, and reset it if there is duplicate, meaning need a new word | 
 |[2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k) | 4/12 | YES | Key is to understand great common divisors | 
 |[2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | 4/12 | YES | Greedy | 
@@ -98,6 +98,11 @@ rent letters |
 ## List of questions to memorize
 1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
 2. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
+3. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)
+   Put pairs of frequency and letter into a max heap.
+   While heap is not empty, pop the most frequent letter out,
+   1. if result is empty or its last letter is not same with most frequent letter, add most frequent letter to result, then update frequency and add to heap if needed
+   1. Otherwise, pop the second most frequent letter, and add to result, then update frequency and add to heap if needed. Then add most frequent letter to heap  
 
 
 
