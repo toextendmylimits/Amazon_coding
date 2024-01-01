@@ -68,6 +68,7 @@
 |[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with diffe
 rent letters | 
 |[1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum) | 6/12 | YES |  | 
+|[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take) | 1/1/24 | YES | Very difficult
 
 ## Stack
 |Question                 | Dates           | Practice Again | Note          |
