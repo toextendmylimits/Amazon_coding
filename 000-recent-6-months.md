@@ -98,7 +98,7 @@ rent letters |
 ## List of questions to memorize
 1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
 2. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
-3. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)
+3. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)  
    Put pairs of frequency and letter into a max heap.
    While heap is not empty, pop the most frequent letter out,
    1. if result is empty or its last letter is not same with most frequent letter, add most frequent letter to result, then update frequency and add to heap if needed
