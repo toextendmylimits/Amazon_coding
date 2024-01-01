@@ -102,7 +102,10 @@ rent letters |
    Put pairs of frequency and letter into a max heap.
    While heap is not empty, pop the most frequent letter out,
    1. if result is empty or its last letter is not same with most frequent letter, add most frequent letter to result, then update frequency and add to heap if needed
-   1. Otherwise, pop the second most frequent letter, and add to result, then update frequency and add to heap if needed. Then add most frequent letter to heap  
+   1. Otherwise, pop the second most frequent letter, and add to result, then update frequency and add to heap if needed. Then add most frequent letter to heap
+4. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
+   Linear scan str1, if letter at position j of str2 subtract letter at position i of str1 is less than 1, then advance i. 
+   
 
 
 
