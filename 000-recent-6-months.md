@@ -60,7 +60,7 @@
 ## Heap
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)| 4/12 | YES | Two heaps | 
+|[2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)| 4/12 | YES | Two heaps. Use max heap to keep the smallest k numbers | 
 
 ## Dynamic programming
 |Question                 | Dates           | Practice Again | Note          |
