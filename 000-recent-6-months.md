@@ -18,7 +18,7 @@
 ## Hash map
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts) | 4/12 | YES | What matters are unique elements | 
+|[2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts) | 4/12, 1/1/24 | YES | What matters are unique non-zero elements, len(set(nums) - {0}) | 
 
 ## Basic Programming
 |Question                 | Dates           | Practice Again | Note          |
@@ -96,7 +96,8 @@ rent letters |
 272. Substring With Largest Variance
 
 ## List of questions to memorize
-|[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
+1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
+2. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
 
 
 
