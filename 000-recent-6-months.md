@@ -5,7 +5,7 @@
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring) | 4/12 | YES | Maintain a window that is valid. Need to memorize the code a few times. Pay attention to left boundary, should be max(right - maxForbiddenWordLength, left - 1) | 
+|[2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring) | 4/12, 1/1/24 | YES | Maintain a window that is valid. Need to memorize the code a few times. Pay attention to left boundary, should be max(right - maxForbiddenWordLength, left - 1) | 
 |[1234. Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string)| 8/12 | YES | If outside of window, each letter appears less than N / 4 times, then the widow is good 
 
 
