@@ -96,9 +96,12 @@ rent letters |
 272. Substring With Largest Variance
 
 ## List of questions to memorize
-1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
+1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)  
    Approach 1 - Brute force
-   Key observation is that if a bookshef is the last bookshelf we choose to take, then we should take all books from that bookshelf. If we take certain number of books from a bookshelf, then in previous shelf, the maximum books we can take should not exceed than the number of books on that bookshelf, and also not exceed the next shelf's books minus 1. If the number of books we can take from a bookshelf is less than 1, then stop.  
+   Key observation is that if a bookshef is the last bookshelf we choose to take, then we should take all books from that bookshelf. If we take certain number of books from a bookshelf, then in previous shelf, the maximum books we can take should not exceed than the number of books on that bookshelf, and also not exceed the next shelf's books minus 1. If the number of books we can take from a bookshelf is less than 1, then stop.
+
+   Approach 2 - DP
+   Record the sudden changes of books. If a range of books form arithmetic sequence, then the books taken from these range can be easily calculated. For example, 3, 4, 5... So the idea is to record all the sudden changes, i.e. the position that can't be part of arighmetic sequence with following numbers. For example, 4 to 7, 8, 9
 3. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
 4. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)  
    Put pairs of frequency and letter into a max heap.
