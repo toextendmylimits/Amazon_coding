@@ -97,13 +97,15 @@ rent letters |
 
 ## List of questions to memorize
 1. |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take)
-2. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
-3. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)  
+   Approach 1 - Brute force
+   Key observation is that if a bookshef is the last bookshelf we choose to take, then we should take all books from that bookshelf. If we take certain number of books from a bookshelf, then in previous shelf, the maximum books we can take should not exceed than the number of books on that bookshelf, and also not exceed the next shelf's books minus 1. If the number of books we can take from a bookshelf is less than 1, then stop.  
+3. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
+4. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)  
    Put pairs of frequency and letter into a max heap.
    While heap is not empty, pop the most frequent letter out,
    1. if result is empty or its last letter is not same with most frequent letter, add most frequent letter to result, then update frequency and add to heap if needed
    1. Otherwise, pop the second most frequent letter, and add to result, then update frequency and add to heap if needed. Then add most frequent letter to heap
-4. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
+5. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
    Linear scan str1, if letter at position j of str2 subtract letter at position i of str1 is less than 1, then advance i. 
    
 
