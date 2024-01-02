@@ -111,7 +111,9 @@ rent letters |
 
    TC O(N logK) where K is less than 26, so O(N), SC O(K) so O(1)  
 5. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)  
-   Linear scan str1, if letter at position j of str2 subtract letter at position i of str1 is less than 1, then advance i. 
+   Linear scan str1, if letter at position j of str2 subtract letter at position i of str1 is less than 1, then advance i.
+
+   TC O(N + M) SC O(1)
    
 
 
