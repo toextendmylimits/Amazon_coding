@@ -114,7 +114,7 @@ rent letters |
    Linear scan str1, if letter at position j of str2 subtract letter at position i of str1 is less than 1, then advance i.
 
    TC O(N + M) SC O(1)
-6. [1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)
+6. [1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)  
    A subarray with positive product must have even number of negative numbers, and shouldn't have zero. If a subarray has even negative number, then this subarray apparently should be checked. If a subarray has odd negative number, then only the subarray after the leading negative number should be considerred. for exmaple, 2, -3, 4, 5, subarray [4, 5] should be considerred. So idea is to linear scan the array, record index of leading non zero number, index of leading negative number, and negative count, and update result if necessary.
    <details>
       
