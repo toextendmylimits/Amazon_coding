@@ -151,8 +151,9 @@ rent letters |
    1. For each user, find all the websites that he or she visits in choronological order
    2. For each user, find all the unique pattern, i.e. cominbations of three websites, and update these pattern's count
    3. Liner scan the patterns and its counts, and find the pattern that has the highest score  
-   
 
+8. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
+   Two approaches: expand from center and dp. Be sure to practice a few more times.  
 
 
 
