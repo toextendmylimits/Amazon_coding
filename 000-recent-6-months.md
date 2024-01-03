@@ -146,6 +146,11 @@ rent letters |
         return result    
    ```
    </details>
+7. [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)
+   3 steps:
+   1. For each user, find all the websites that he or she visits in choronological order
+   2. For each user, find all the unique pattern, i.e. cominbations of three websites, and update these pattern's count
+   3. Liner scan the patterns and its counts, and find the pattern that has the highest score  
    
 
 
