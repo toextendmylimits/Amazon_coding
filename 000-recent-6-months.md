@@ -152,8 +152,34 @@ rent letters |
    2. For each user, find all the unique pattern, i.e. cominbations of three websites, and update these pattern's count
    3. Liner scan the patterns and its counts, and find the pattern that has the highest score  
 
-8. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
+8. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)  
    Two approaches: expand from center and dp. Be sure to practice a few more times.  
+   For first approach, find the longest palindrome that can be expanded from each centers, and longest one is the result.
+
+   For dp, the transition condition is: if character at start equals character at end, then dp[start][end] is True if end - start == 1 or dp[start + 1][end - 1] is True  
+   <details>
+
+   ```python
+        def expandPalindromeFromCenter(s, left, right):
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left -= 1
+                right += 1
+            
+            return s[left + 1 : right]
+        
+        result = ""
+        for i in range(len(s)):
+            panlindrome = expandPalindromeFromCenter(s, i, i)
+            if len(panlindrome) > len(result):
+                result = panlindrome
+
+            panlindrome = expandPalindromeFromCenter(s, i, i + 1)
+            if len(panlindrome) > len(result):
+                result = panlindrome
+        
+        return result
+   ```
+   </details>
 
 
 
