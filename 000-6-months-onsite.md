@@ -5,7 +5,7 @@
 3. Number of Islands leetcode problem, follow up question if islands were also connected diagonally
 4. Given a root employee object and two employee IDs, determine if the two employees are Away Team Peers i.e if they have the same level ID but different manager IDs.
 5. Find 0 sum subarray
-6. Variation of Merge K Sorted Lists
+6. Variation of Merge K Sorted Lists. Merge K Sorted Lists, closer to the leetcode version. I solved this using divide and conquer approach, and follow up was to get to a one pass solution by merging all the lists at same time. I wasn't able to get to a suitable solution for the follow up in the time left.
   Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions
 
 # System Design
