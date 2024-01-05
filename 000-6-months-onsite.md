@@ -19,6 +19,8 @@
    Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions.
 1. Design a system that can handle and managed large text systems. Something that can manage, search, filter and maintain the data etc.
  Source https://leetcode.com/discuss/interview-question/3889173/Amazon-Full-loop-onsite
+1. chat room- Book Club
+   Source https://leetcode.com/discuss/interview-question/3882658/System-design-oror-chat-room-Book-Club-oror-Amazon
 
 # Leadership Principles
 1. Leadership Principle (LP) question - Ownership - A time when you made a hard decision to sacrifice short term gain for something that would create long term value for the business
