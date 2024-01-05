@@ -1,8 +1,26 @@
-# From Leetcode
+# Algorithm
 1. https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
 2. https://leetcode.com/discuss/interview-question/1031933/amazon-onsite-sde2-package-dependencies 
  Source is https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023).
+3. Number of Islands leetcode problem, follow up question if islands were also connected diagonally
+4. Given a root employee object and two employee IDs, determine if the two employees are Away Team Peers i.e if they have the same level ID but different manager IDs.
+5. Find 0 sum subarray
+6. Variation of Merge K Sorted Lists
+  Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions
 
 # System Design
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
+1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
+   Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions.
+
+# Leadership Principles
+1. Leadership Principle (LP) question - Ownership - A time when you made a hard decision to sacrifice short term gain for something that would create long term value for the business
+3. LP - Customer Obsession - A time when you evaluated the customer experience of your product or service
+4. LP - Deliver Results - Example of a time when you were able to deliver an important project under a tight deadline
+5. LP - Learn and Be Curious - Describe a time when you took on work outside of your comfort area
+6. LP - Invent and Simplify - A time when you influenced and drove new thinking and innovation out of your team.
+7. LP - Think Big - Give me an example of how you have changed the direction or view of a specific function/department and helped them embrace a new way of thinking.
+8. LP - Dive Deep - Have you ever created a metric that helped identify a need for a change in your department?
+9. LP - Earn Trust - Example of a time when you were not able to meet a commitment.
+LP - Bias for Action - Example of a calculated risk that you have taken where speed was critical.
