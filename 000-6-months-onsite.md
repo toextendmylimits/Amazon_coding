@@ -7,12 +7,18 @@
 5. Find 0 sum subarray
 6. Variation of Merge K Sorted Lists. Merge K Sorted Lists, closer to the leetcode version. I solved this using divide and conquer approach, and follow up was to get to a one pass solution by merging all the lists at same time. I wasn't able to get to a suitable solution for the follow up in the time left.
   Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions
+7. https://leetcode.com/discuss/interview-question/4048237/Amazon-or-SDE2-or-Coding-Round-or-Graphs
+  Solution can be found in the discussion.
+8. A very complex version of this https://leetcode.com/problems/generate-parentheses/ making it a hard problem.
+   Source https://leetcode.com/discuss/interview-question/3889173/Amazon-Full-loop-onsite
 
 # System Design
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
    Source https://leetcode.com/discuss/interview-question/4063437/Amazon-SDE-II-Onsite-Questions.
+1. Design a system that can handle and managed large text systems. Something that can manage, search, filter and maintain the data etc.
+ Source https://leetcode.com/discuss/interview-question/3889173/Amazon-Full-loop-onsite
 
 # Leadership Principles
 1. Leadership Principle (LP) question - Ownership - A time when you made a hard decision to sacrifice short term gain for something that would create long term value for the business
