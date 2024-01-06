@@ -56,6 +56,7 @@
 |[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island) | 6/1/24 | NO | Very clear but can have a brief look if time permits | 
 |[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions)| 6/1/24 | YES | Should at least have a look again| 
 |[1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) | 6/1/24 | YES | A bit difficult to understand| 
+|[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)  | 6/1/24 | YES | Standard BFS. Add visited nodes to a hash set | 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
