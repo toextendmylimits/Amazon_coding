@@ -54,6 +54,7 @@
 |[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 6/1/24 | YES | Beware to decrease fresh count when rottening oranges| 
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands)  | 6/1/24 | NO | Very clear but can have a brief look if time permits | 
 |[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island) | 6/1/24 | NO | Very clear but can have a brief look if time permits | 
+|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions)| 6/1/24 | YES | Should at least have a look again| 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
