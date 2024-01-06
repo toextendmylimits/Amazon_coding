@@ -52,6 +52,7 @@
 |[2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/reorganize-string)| 4/12 | YES | Convert tree to graph then do BFS | 
 |[733. Flood Fill](https://leetcode.com/problems/flood-fill/)| 6/1/24 | YES | Beware the edge case when original color is same with replacement color, as it leads to infinite recursive stack call, so should return image immediately if original color is same as replacement color| 
 |[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 6/1/24 | YES | Beware to decrease fresh count when rottening oranges| 
+|[200. Number of Islands](https://leetcode.com/problems/number-of-islands)  | 6/1/24 | NO | Very clear but can have a brief look if time permits | 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
