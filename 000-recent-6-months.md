@@ -58,6 +58,7 @@
 |[1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) | 6/1/24 | YES | A bit difficult to understand| 
 |[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)  | 6/1/24 | YES | Standard BFS. Add visited nodes to a hash set | 
 |[127. Word Ladder](https://leetcode.com/problems/word-ladder) | 6/1/24 | YES | Practice explaining it clearly | 
+|[79. Word Search](https://leetcode.com/problems/word-search) | 6/1/24 | YES | Difficult. Need more practice | 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
