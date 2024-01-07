@@ -60,6 +60,11 @@
 |[127. Word Ladder](https://leetcode.com/problems/word-ladder) | 6/1/24 | YES | Practice explaining it clearly | 
 |[79. Word Search](https://leetcode.com/problems/word-search) | 6/1/24 | YES | Difficult. Need more practice | 
 
+## Toplogical Sort
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[207. Course Schedule](https://leetcode.com/problems/course-schedule)  | 7/1/24| YES | Beware use i in range(len(indegree))| 
+
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
