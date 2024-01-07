@@ -65,7 +65,7 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[207. Course Schedule](https://leetcode.com/problems/course-schedule)  | 7/1/24| YES | Beware use i in range(len(indegree))| 
 |[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 7/1/24| YES | Similar to above| 
-
+|[2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | 7/1/24 | NO | Just have a brief look as it's not a high-frequent one |
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
@@ -84,6 +84,7 @@
 rent letters | 
 |[1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum) | 6/12 | YES |  | 
 |[2355. Maximum Number of Books You Can Take](https://leetcode.com/problems/maximum-number-of-books-you-can-take) | 1/1/24 | YES | Very difficult
+|
 
 ## Stack
 |Question                 | Dates           | Practice Again | Note          |
