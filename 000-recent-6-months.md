@@ -64,6 +64,7 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[207. Course Schedule](https://leetcode.com/problems/course-schedule)  | 7/1/24| YES | Beware use i in range(len(indegree))| 
+|[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 7/1/24| YES | Similar to above| 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
