@@ -1,4 +1,5 @@
 # Algorithm
+1. design post sign operator。 e.g. 1 3 + 5 * = 4*5=20
 1. https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
 2. https://leetcode.com/discuss/interview-question/1031933/amazon-onsite-sde2-package-dependencies 
  Source is https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023).
