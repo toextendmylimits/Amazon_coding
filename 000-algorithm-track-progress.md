@@ -1,8 +1,9 @@
 # Track progress of solving algorithm questions
 
-Topics that visited:
-Tree/Graph BFS/DFS
-Heap
+1. Topics that visited:
+1. Tree/Graph BFS/DFS
+1. Heap
+1. Cylic sort
 
 ## 7/1/24
 ### Topilogical sort
@@ -27,3 +28,7 @@ Heap
 ### Heap
 1. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) 
 1. [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)
+
+### Cyclic sort
+1. [268. Missing Number](https://leetcode.com/problems/missing-number)
+
