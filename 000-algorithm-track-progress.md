@@ -17,5 +17,8 @@
    TC O(N + E logE), SC O(N + E) Need more explanation
 
 ## 8/1/24
-BFS/DFS
-1. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) 
+### BFS/DFS
+1. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)
+
+### Heap
+1. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) 
