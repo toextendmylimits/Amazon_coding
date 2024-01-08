@@ -68,6 +68,11 @@
 |[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 7/1/24| YES | Similar to above| 
 |[2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | 7/1/24 | NO | Just have a brief look as it's not a high-frequent one |
 
+## Cyclic sort
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[268. Missing Number](https://leetcode.com/problems/missing-number)  | 8/1/24| YES | Beware to use nums[i] to compare | 
+
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
