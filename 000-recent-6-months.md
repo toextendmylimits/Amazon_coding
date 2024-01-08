@@ -73,6 +73,7 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[268. Missing Number](https://leetcode.com/problems/missing-number)  | 8/1/24| YES | Beware to use nums[i] to compare | 
 |[41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 8/1/24| YES | Beware to update correctPos to nums[i] - 1, and in the end return len(nums) + 1 | 
+|[287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 8/1/24| YES | Advanced binary search as well | 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
