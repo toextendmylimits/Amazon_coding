@@ -1,6 +1,7 @@
 # Algorithm
 1. design post sign operator。 e.g. 1 3 + 5 * = 4*5=20
 2. Leetcode 1668
+3. Leetcode 23 merge k sorted list
 1. https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
 2. https://leetcode.com/discuss/interview-question/1031933/amazon-onsite-sde2-package-dependencies 
  Source is https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023).
@@ -35,3 +36,9 @@
 8. LP - Dive Deep - Have you ever created a metric that helped identify a need for a change in your department?
 9. LP - Earn Trust - Example of a time when you were not able to meet a commitment.
 LP - Bias for Action - Example of a calculated risk that you have taken where speed was critical.
+1. a quick decision in a tight time
+2. how to solve conflicts with others
+3. a time when you receive negative feedback
+4. tight deadline
+5. challenging project
+1. a time you improved the performance of your team's product.....
