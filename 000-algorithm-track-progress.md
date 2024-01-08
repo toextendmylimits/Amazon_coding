@@ -15,3 +15,7 @@
 1. [743. Network Delay Time](https://leetcode.com/problems/network-delay-time)
    Let N represent the number of node, and E represent the number of edges.
    TC O(N + E logE), SC O(N + E) Need more explanation
+
+## 8/1/24
+BFS/DFS
+1. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) 
