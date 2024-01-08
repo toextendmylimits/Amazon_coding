@@ -22,6 +22,7 @@
    TC O(N + E logE), SC O(N + E) Need more explanation
 
 ## 8/1/24
+
 ### BFS/DFS
 1. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)
 
@@ -40,3 +41,5 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 1. [645. Set Mismatch](https://leetcode.com/problems/set-mismatch) 
 1. [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)  
 
+### Two Pointers
+1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
