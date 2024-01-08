@@ -33,4 +33,8 @@
 1. [268. Missing Number](https://leetcode.com/problems/missing-number)
 1. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)   
 Put each number in the right place, i.e. num placed at position num - 1, if num - 1 is a valid position. In the end, return len(nums) + 1
+1. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) 
+If there is no duplicate, say 1, 2, 3, 4 for count of numbers less than a number equals to a number. For example, there are 4 numbers less than or equal to 4. If there are duplicates less a number, then the total count of numbers than less than or equal than that number is greater than that number. For example, 1, 2, 2, 3, 4, 5. For number 3, there are 4 numbers less than or equal to it, so the repeated number is on 3's left.
+
+So the idea is using binary search. Find mid point, if count of numbers less than or equal to the mid point, then the repeated number is either the mid point, or a number on its left. Otherwise, it must be on its right
 
