@@ -1,7 +1,9 @@
-
-
 # High-frequency questions that appear in recent 6 months
 
+## Two Pointers
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)| 8/1/24 | NO | Have a brief look is enough | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
