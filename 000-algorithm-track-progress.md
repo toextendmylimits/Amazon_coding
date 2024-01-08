@@ -31,4 +31,6 @@
 
 ### Cyclic sort
 1. [268. Missing Number](https://leetcode.com/problems/missing-number)
+1. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)   
+Put each number in the right place, i.e. num placed at position num - 1, if num - 1 is a valid position. In the end, return len(nums) + 1
 
