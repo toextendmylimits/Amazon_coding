@@ -59,6 +59,7 @@
 |[542. 01 Matrix](https://leetcode.com/problems/01-matrix/)  | 6/1/24 | YES | Standard BFS. Add visited nodes to a hash set | 
 |[127. Word Ladder](https://leetcode.com/problems/word-ladder) | 6/1/24 | YES | Practice explaining it clearly | 
 |[79. Word Search](https://leetcode.com/problems/word-search) | 6/1/24 | YES | Difficult. Need more practice | 
+|[1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 8/1/24 | YES | Standard BFS |
 
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
@@ -66,6 +67,7 @@
 |[207. Course Schedule](https://leetcode.com/problems/course-schedule)  | 7/1/24| YES | Beware use i in range(len(indegree))| 
 |[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 7/1/24| YES | Similar to above| 
 |[2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | 7/1/24 | NO | Just have a brief look as it's not a high-frequent one |
+
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
