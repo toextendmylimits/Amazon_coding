@@ -1,7 +1,11 @@
 # Track progress of solving algorithm questions
 
+Topics that visited:
+Tree/Graph BFS/DFS
+Heap
+
 ## 7/1/24
-###Topilogical sort
+### Topilogical sort
 1. [207. Course Schedule](https://leetcode.com/problems/course-schedule)  
     Beware:  
     1. use range(numCourses) when initializing the graph,
