@@ -75,6 +75,7 @@
 |[41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 8/1/24| YES | Beware to update correctPos to nums[i] - 1, and in the end return len(nums) + 1 | 
 |[287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 8/1/24| YES | Advanced binary search as well | 
 |[645. Set Mismatch](https://leetcode.com/problems/set-mismatch) | 8/1/24| YES | Have a brief look | 
+|[448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 8/1/24| YES | Have a quick look | 
 
 ## Math
 |Question                 | Dates           | Practice Again | Note          |
