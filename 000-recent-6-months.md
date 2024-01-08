@@ -78,6 +78,7 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)| 4/12, 1/1/24  | YES | Two heaps. Use max heap to keep the smallest k numbers | 
+|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 8/1/24 | YES | Got it wrong, the top k elements are unique, so linear scan the counter, not the original array |
 
 ## Dynamic programming
 |Question                 | Dates           | Practice Again | Note          |
