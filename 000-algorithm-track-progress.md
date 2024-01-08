@@ -38,4 +38,5 @@ If there is no duplicate, say 1, 2, 3, 4 for count of numbers less than a number
 
 So the idea is using binary search. Find mid point, if count of numbers less than or equal to the mid point, then the repeated number is either the mid point, or a number on its left. Otherwise, it must be on its right
 1. [645. Set Mismatch](https://leetcode.com/problems/set-mismatch) 
+1. [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)  
 
