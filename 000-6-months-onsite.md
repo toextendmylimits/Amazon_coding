@@ -55,7 +55,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 11. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
 DAU: 100 thousand, keep data for 5 years
 Focus: API design, database design, ( I also mentioned data sharding by using algorithm/hashing shards with SHA-1)
-
+12. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
