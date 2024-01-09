@@ -15,6 +15,7 @@
 |[3 sum](https://leetcode.com/problems/3sum) |9/1/24 | NO | Quick look | 
 |3 Sum Closet](https://leetcode.com/problems/3sum-closest) |9/1/24 | YES | Beware use abs when comparing minimum difference | 
 |[18. 4Sum](https://leetcode.com/problems/4sum)  |9/1/24 | YES | Beware check: j > i + 1 and nums[j] == nums[j - 1] to avoid duplicates| 
+|[285. Move Zeroes](https://leetcode.com/problems/move-zeroes)  |9/1/24 | YES | Need to explain clearly | 
    
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
