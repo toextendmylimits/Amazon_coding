@@ -68,3 +68,4 @@ LP - Bias for Action - Example of a calculated risk that you have taken where sp
 3.  a quick decision in a tight time
 4.  Tell me about a time you said no to a customer request and why
 1. Tell me when a customer asks f‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌or an A but wants B
+2. deadline, calculated risk
