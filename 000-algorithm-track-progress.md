@@ -4,6 +4,7 @@
 1. Tree/Graph BFS/DFS
 1. Heap
 1. Cylic sort
+2. Two Pointers
 
 ## 7/1/24
 ### Topilogical sort
@@ -50,4 +51,5 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 4. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)  
    Challenging. Practice a few more times.
 5. [189. Rotate Array](https://leetcode.com/problems/rotate-array)
-6. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 
+6. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+7. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
