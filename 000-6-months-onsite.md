@@ -33,6 +33,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 9. telephone interview Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal
 10. Leetcode 994. Rotting Oranges
 11. Leetcode 735. Asteroid Collision
+12. 来自于7到9月的面试：Write a hashtable class, max size of array of 10
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -40,6 +41,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 3. SD‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ 类似top k heavy hitters
 4. unique ID generator
 5. Des‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ign a system that will sync browser bookmarks across devices.
+6. 来自于7到9月的面试：design AWS S3
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
