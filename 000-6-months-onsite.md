@@ -30,6 +30,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 6. LRU Cache
 7. 图遍历题，在一个社交网络里，要找从一个人到另一个人的路径
 8. 数字转单词。有一个词表，和数字到字符的映射关系，需要为用户输入的数字串，推荐可能匹配的单词
+9. telephone interview Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
