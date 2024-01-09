@@ -54,6 +54,9 @@ Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍
 25. 第二轮 白人小姐姐 设计一个leaderboard，设计完了 问如何优化top-k 之后查了一下 是leetcode的原题
 26. 第三轮 西裔小哥 linked list 要写sorting algorithm 跪了， sort 完 写 merge 两个linked list 然后一直到k list 合并
 27. Leetcode 225. Implement Stack using Queues
+28. 53. Maximum Subarray
+29. Leetcode 90. Subsets II
+30. Leetcode 622. Design Circular Queue
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -69,12 +72,15 @@ Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍
 11. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
 DAU: 100 thousand, keep data for 5 years
 Focus: API design, database design, ( I also mentioned data sharding by using algorithm/hashing shards with SHA-1)
-12. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。
+12. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。https://www.amazon.com/gp/help/c ... Id=GXCWH4CXLKJD8Z52
 13. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
 14. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
 15. Design TinyURL
 16. Design twitter
-17. design software for vending machines sold Amazon Kindles
+17.  设计一个leaderboard
+18.  让设计个file system 实现存东西取东西删东西这种
+19. design software for vending machines sold Amazon Kindles
+20. design a banking ‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌system
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
