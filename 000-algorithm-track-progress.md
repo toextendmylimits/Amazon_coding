@@ -59,3 +59,5 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 10. [3 sum](https://leetcode.com/problems/3sum)
 11. [3 Sum Smaller](https://leetcode.com/problems/3sum-smaller)  
     Not an Amazon question but it's related to 3 sum so worth a look. Beware to update result += right - left  
+12. [3 Sum Closet](https://leetcode.com/problems/3sum-closest) 
+    Key logic is: if abs(currentDifference) < abs(difference)
