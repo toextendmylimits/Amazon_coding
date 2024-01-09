@@ -52,6 +52,10 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 8. 面试者之前是亚马逊员工，设计一个web crawl‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌er的变形。有些额外的限制，机器数量，BFS的deep之类的，整体不难。
 9. 设计一个返现系统  类似每次成交一单 有10 % 返回给 content creator
 10. SD: 设计储存和搜索log的系统
+11. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
+DAU: 100 thousand, keep data for 5 years
+Focus: API design, database design, ( I also mentioned data sharding by using algorithm/hashing shards with SHA-1)
+
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
