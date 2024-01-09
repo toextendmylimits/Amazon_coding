@@ -31,11 +31,14 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 7. 图遍历题，在一个社交网络里，要找从一个人到另一个人的路径
 8. 数字转单词。有一个词表，和数字到字符的映射关系，需要为用户输入的数字串，推荐可能匹配的单词
 9. telephone interview Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal
+10. Leetcode 994. Rotting Oranges
+11. Leetcode 735. Asteroid Collision
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
 2. 一个least recent play song list user会一直在点歌, 听歌, 要实时的返回最近听过的20首歌
 3. SD‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ 类似top k heavy hitters
+4. unique ID generator
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
