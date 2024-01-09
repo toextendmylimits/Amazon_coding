@@ -34,6 +34,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 10. Leetcode 994. Rotting Oranges
 11. Leetcode 735. Asteroid Collision
 12. 来自于7到9月的面试：Write a hashtable class, max size of array of 10
+13. 假设有个XY坐标系，给你一堆点，问这些点能组成多少个长方形，这边长方形的定义clarify了挺久的。我一开始以为是要很多很多的点组合在一起构成长方形，但其实是四个顶点就能构成长方形了
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -42,6 +43,8 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 4. unique ID generator
 5. Des‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ign a system that will sync browser bookmarks across devices.
 6. 来自于7到9月的面试：design AWS S3
+7. 计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
+8. 面试者之前是亚马逊员工，设计一个web crawl‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌er的变形。有些额外的限制，机器数量，BFS的deep之类的，整体不难。
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
