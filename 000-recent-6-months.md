@@ -6,6 +6,7 @@
 |[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)| 8/1/24 | NO | Have a brief look is enough | 
 |[2330. Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv) |9/1/24 | NO | Have a look again | 
 |[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |9/1/24 | YES | Although easy, worth another look | 
+|[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) |9/1/24 | YES | More practice | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
