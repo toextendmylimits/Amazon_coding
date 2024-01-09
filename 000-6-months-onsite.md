@@ -18,6 +18,8 @@
 1. find max <= target in a BST
 1. 1sqrt
 1. 2a list of weights, find minimum truck load, so that all weight can be transported within x times
+2. 一题是小偷偷房子，但是房子是 binary tree 的节点，且不能相邻。后面就忘了。  
+1. 四面 烙印 给一个task list， 和他们的dependency list， output做完task的方法。之前做过所以比较顺。
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
