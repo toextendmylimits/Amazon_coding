@@ -9,6 +9,7 @@
 |[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) |9/1/24 | YES | More practice | 
 |[189. Rotate Array](https://leetcode.com/problems/rotate-array)|9/1/24 | NO | Just have a quick look| 
 |[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |9/1/24 | NO | Quick look | 
+|[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|9/1/24 | NO | Quick look | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
