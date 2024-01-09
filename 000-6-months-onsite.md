@@ -43,6 +43,16 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 19. 第四轮 problem solving: 白人🌈小哥. 马里奥找公主. 一题hard. 我和他clarify 梯子的参数了起码15分钟. 梯子里的参数是index而不是坐标.
 最后他看我没时间了, 题目化简了一点, 然而就是因为这个给我挂了. https://leetcode.com/discuss/interview-question/923707/amazon-phone-mario-and-princess
 20. 1235. Maximum Profit in Job Scheduling
+21. 是一道merge intervals的变体：
+Find empty slots in the events calendar given the start time and end time.
+Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ {start, end}, startTime, endTime
+比如[[3, 4], [7, 8]], 1, 10
+应返回[1, 2], [5, 6], [9, 10]
+22. Leetcode 238. Product of Array Except Self
+23. 297. Serialize and Deserialize Binary Tree
+24. 322. Coin Change 三二二 硬币的问题 但要输出组合
+25. 第二轮 白人小姐姐 设计一个leaderboard，设计完了 问如何优化top-k 之后查了一下 是leetcode的原题
+26. 第三轮 西裔小哥 linked list 要写sorting algorithm 跪了， sort 完 写 merge 两个linked list 然后一直到k list 合并
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -62,6 +72,7 @@ Focus: API design, database design, ( I also mentioned data sharding by using al
 13. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
 14. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
 15. Design TinyURL
+16. Design twitter
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
