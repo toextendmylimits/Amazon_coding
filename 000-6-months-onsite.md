@@ -23,6 +23,10 @@
 2. Leetcode 125. Valid Palindrome
 3. Leetcode 409. Longest Palindrome
 4. Leetcode 1152. Analyze User Website Visit Pattern
+5. 给一串 wordlist 比如 cats,csat, tsac, in, the, bat, tab
+再给你一个sentence list : [cats, in, the], [bat in csat]
+要求你返回anagram 的 product frequency
+Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ntence是 2*1*1 = 2
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
