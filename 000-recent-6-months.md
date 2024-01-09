@@ -4,6 +4,7 @@
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)| 8/1/24 | NO | Have a brief look is enough | 
+|[2330. Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv) |9/1/24 | NO | Have a look again | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
