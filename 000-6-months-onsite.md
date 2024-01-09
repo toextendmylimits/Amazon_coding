@@ -35,6 +35,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 11. Leetcode 735. Asteroid Collision
 12. 来自于7到9月的面试：Write a hashtable class, max size of array of 10
 13. 假设有个XY坐标系，给你一堆点，问这些点能组成多少个长方形，这边长方形的定义clarify了挺久的。我一开始以为是要很多很多的点组合在一起构成长方形，但其实是四个顶点就能构成长方形了
+14. Leetcode 380. Insert Delete GetRandom O(1)
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
