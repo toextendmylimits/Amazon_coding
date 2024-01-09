@@ -10,6 +10,7 @@
 |[189. Rotate Array](https://leetcode.com/problems/rotate-array)|9/1/24 | NO | Just have a quick look| 
 |[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |9/1/24 | NO | Quick look | 
 |[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|9/1/24 | NO | Quick look | 
+|[1099. 2 Sum less than k](https://leetcode.com/problems/two-sum-less-than-k) |9/1/24 | YES | Practice again. Beware edge case and how to update result| 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
