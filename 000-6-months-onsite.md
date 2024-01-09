@@ -14,6 +14,10 @@
   Solution can be found in the discussion.
 8. A very complex version of this https://leetcode.com/problems/generate-parentheses/ making it a hard problem.
    Source https://leetcode.com/discuss/interview-question/3889173/Amazon-Full-loop-onsite
+1. 1sorted int array, find max <= target
+1. find max <= target in a BST
+1. 1sqrt
+1. 2a list of weights, find minimum truck load, so that all weight can be transported within x times
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
