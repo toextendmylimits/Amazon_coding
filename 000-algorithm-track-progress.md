@@ -61,3 +61,5 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
     Not an Amazon question but it's related to 3 sum so worth a look. Beware to update result += right - left  
 12. [3 Sum Closet](https://leetcode.com/problems/3sum-closest) 
     Key logic is: if abs(currentDifference) < abs(difference)
+13. [18. 4Sum](https://leetcode.com/problems/4sum)  
+     Beware check: j > i + 1 and nums[j] == nums[j - 1] to avoid duplicates| 
