@@ -11,6 +11,7 @@
 |[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |9/1/24 | NO | Quick look | 
 |[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|9/1/24 | NO | Quick look | 
 |[1099. 2 Sum less than k](https://leetcode.com/problems/two-sum-less-than-k) |9/1/24 | YES | Practice again. Beware edge case and how to update result| 
+|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |9/1/24 | NO | Quick look | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
