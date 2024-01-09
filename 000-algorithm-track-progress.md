@@ -1,6 +1,6 @@
 # Track progress of solving algorithm questions
 
-1. Topics that visited:
+## Topics that visited:
 1. Tree/Graph BFS/DFS
 1. Heap
 1. Cylic sort
