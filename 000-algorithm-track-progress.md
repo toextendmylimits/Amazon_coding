@@ -53,3 +53,5 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 5. [189. Rotate Array](https://leetcode.com/problems/rotate-array)
 6. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 7. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+8. [1099. 2 Sum less than k](https://leetcode.com/problems/two-sum-less-than-k) 
+    Beware edge case return -1, and also use result = max(result, total) when total is less than k
