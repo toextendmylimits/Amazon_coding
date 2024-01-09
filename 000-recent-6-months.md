@@ -13,6 +13,7 @@
 |[1099. 2 Sum less than k](https://leetcode.com/problems/two-sum-less-than-k) |9/1/24 | YES | Practice again. Beware edge case and how to update result| 
 |[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |9/1/24 | NO | Quick look | 
 |[3 sum](https://leetcode.com/problems/3sum) |9/1/24 | NO | Quick look | 
+|3 Sum Closet](https://leetcode.com/problems/3sum-closest) |9/1/24 | YES | Beware use abs when comparing minimum difference | 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
