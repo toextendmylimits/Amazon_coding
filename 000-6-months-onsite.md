@@ -37,6 +37,9 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 13. 假设有个XY坐标系，给你一堆点，问这些点能组成多少个长方形，这边长方形的定义clarify了挺久的。我一开始以为是要很多很多的点组合在一起构成长方形，但其实是四个顶点就能构成长方形了
 14. Leetcode 380. Insert Delete GetRandom O(1)
 15. Leetcode 235. Lowest Common Ancestor of a Binary Search Tree
+16. Coding: Geekforgeek - Minimum time required to produce m items
+17. 利口: Largest Time for Given Digits
+18. LRU
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
