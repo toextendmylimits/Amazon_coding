@@ -39,7 +39,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 15. Leetcode 235. Lowest Common Ancestor of a Binary Search Tree
 16. Coding: Geekforgeek - Minimum time required to produce m items
 17. 利口: Largest Time for Given Digits
-18. LRU
+18. LRU 做完之后有follow up，What if each cache item comes with a TTL value。
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
