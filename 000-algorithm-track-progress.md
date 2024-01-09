@@ -56,4 +56,6 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 8. [1099. 2 Sum less than k](https://leetcode.com/problems/two-sum-less-than-k) 
     Beware edge case return -1, and also use result = max(result, total) when total is less than k
 9. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
-10. [3 sum](https://leetcode.com/problems/3sum) 
+10. [3 sum](https://leetcode.com/problems/3sum)
+11. [3 Sum Smaller](https://leetcode.com/problems/3sum-smaller)  
+    Not an Amazon question but it's related to 3 sum so worth a look. Beware to update result += right - left  
