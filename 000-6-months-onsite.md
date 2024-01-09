@@ -40,6 +40,8 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 16. Coding: Geekforgeek - Minimum time required to produce m items
 17. 利口: Largest Time for Given Digits
 18. LRU 做完之后有follow up，What if each cache item comes with a TTL value。面试官没有要我Implement，我就大概描述了一下直觉用heap可以避免每次traverse整个map然后除掉过期的。面试官好像觉得还okay就转到BQ去了
+19. 第四轮 problem solving: 白人🌈小哥. 马里奥找公主. 一题hard. 我和他clarify 梯子的参数了起码15分钟. 梯子里的参数是index而不是坐标.
+最后他看我没时间了, 题目化简了一点, 然而就是因为这个给我挂了. https://leetcode.com/discuss/interview-question/923707/amazon-phone-mario-and-princess
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -56,6 +58,7 @@ Ex: cats 有两个anagram, in 有一个, the 有一个, 所以第一个se‍‌�
 DAU: 100 thousand, keep data for 5 years
 Focus: API design, database design, ( I also mentioned data sharding by using algorithm/hashing shards with SHA-1)
 12. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。
+13. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
@@ -86,3 +89,8 @@ LP - Bias for Action - Example of a calculated risk that you have taken where sp
 4.  Tell me about a time you said no to a customer request and why
 1. Tell me when a customer asks f‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌or an A but wants B
 2. deadline, calculated risk
+
+# OOD
+1. 第三轮 logical and maintainable: Unix find. 我完全没看OOD. 考到这个我直接心态炸了. 我有明确的问recruiter考不考OOD他说不考. 我印象里也是如果考了SD就不会有OOD.
+super unfriendly的老斑鸠
+https://leetcode.com/discuss/interview-question/369272/Amazon-or-Onsite-or-Linux-Find-Command
