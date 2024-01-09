@@ -41,6 +41,9 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 1. [645. Set Mismatch](https://leetcode.com/problems/set-mismatch) 
 1. [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)  
 
+## 9/1/24
+
 ### Two Pointers
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
-2. [2330. Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv) 
+2. [2330. Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv)
+3. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) 
