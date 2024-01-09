@@ -53,6 +53,7 @@ Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍
 24. 322. Coin Change 三二二 硬币的问题 但要输出组合
 25. 第二轮 白人小姐姐 设计一个leaderboard，设计完了 问如何优化top-k 之后查了一下 是leetcode的原题
 26. 第三轮 西裔小哥 linked list 要写sorting algorithm 跪了， sort 完 写 merge 两个linked list 然后一直到k list 合并
+27. Leetcode 225. Implement Stack using Queues
 
 # System Design
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
@@ -73,6 +74,7 @@ Focus: API design, database design, ( I also mentioned data sharding by using al
 14. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
 15. Design TinyURL
 16. Design twitter
+17. design software for vending machines sold Amazon Kindles
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
@@ -103,6 +105,7 @@ LP - Bias for Action - Example of a calculated risk that you have taken where sp
 4.  Tell me about a time you said no to a customer request and why
 1. Tell me when a customer asks f‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌or an A but wants B
 2. deadline, calculated risk
+3. Tell me about a time when you solved a problem through just superior knowledge or observation.
 
 # OOD
 1. 第三轮 logical and maintainable: Unix find. 我完全没看OOD. 考到这个我直接心态炸了. 我有明确的问recruiter考不考OOD他说不考. 我印象里也是如果考了SD就不会有OOD.
