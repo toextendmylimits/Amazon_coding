@@ -12,3 +12,5 @@
 10. [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)  
     Simple binary search, beware the condition to set result
 11. [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
+12. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
+    Beware the condition check is whether mid <= x // mid. Don't forget the equal sign.  
