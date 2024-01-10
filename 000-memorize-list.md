@@ -15,3 +15,5 @@
 12. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
     Beware the condition check is whether mid <= x // mid. Don't forget the equal sign.  
 13. https://leetcode.com/discuss/interview-question/4048237/Amazon-or-SDE2-or-Coding-Round-or-Graphs
+14. [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+    Memorize iterative way as well.  
