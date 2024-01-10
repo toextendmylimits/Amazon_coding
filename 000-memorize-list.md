@@ -9,5 +9,6 @@
 8. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)  
    Don't forget to update hash map of current sum at each iteration. 
 9. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses)
-10. [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
-    Simple binary search, beware the condition to set result  
+10. [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)  
+    Simple binary search, beware the condition to set result
+11. [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
