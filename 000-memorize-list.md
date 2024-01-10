@@ -6,3 +6,5 @@
 5. [207. Course Schedule](https://leetcode.com/problems/course-schedule) 
 6. [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii)
 7. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+8. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+   Don't forget to update hash map of current sum at each iteration. 
