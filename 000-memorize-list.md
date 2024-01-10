@@ -14,3 +14,4 @@
 11. [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
 12. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
     Beware the condition check is whether mid <= x // mid. Don't forget the equal sign.  
+13. https://leetcode.com/discuss/interview-question/4048237/Amazon-or-SDE2-or-Coding-Round-or-Graphs
