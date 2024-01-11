@@ -62,26 +62,27 @@ Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍
 1. Online chat system
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
 2. 一个least recent play song list user会一直在点歌, 听歌, 要实时的返回最近听过的20首歌
-3. SD‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ 类似top k heavy hitters
-4. unique ID generator
-5. Des‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ign a system that will sync browser bookmarks across devices.
-6. 来自于7到9月的面试：design AWS S3
-7. 计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
-8. 面试者之前是亚马逊员工，设计一个web crawl‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌er的变形。有些额外的限制，机器数量，BFS的deep之类的，整体不难。
-9. 设计一个返现系统  类似每次成交一单 有10 % 返回给 content creator
-10. SD: 设计储存和搜索log的系统
-11. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
+3. Rate limiter
+4. SD‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ 类似top k heavy hitters
+5. unique ID generator
+6. Des‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌ign a system that will sync browser bookmarks across devices.
+7. 来自于7到9月的面试：design AWS S3
+8. 计一个酒店预定系统（需要考虑商家上传酒店信息和用户订房间两方面）
+9. 面试者之前是亚马逊员工，设计一个web crawl‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌er的变形。有些额外的限制，机器数量，BFS的deep之类的，整体不难。
+10. 设计一个返现系统  类似每次成交一单 有10 % 返回给 content creator
+11. SD: 设计储存和搜索log的系统
+12. Design a loan website, find loans for users based on their preferences, once user click on the loan link, they will be redirected to the external url
 DAU: 100 thousand, keep data for 5 years
 Focus: API design, database design, ( I also mentioned data sharding by using algorithm/hashing shards with SHA-1)
-12. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。https://www.amazon.com/gp/help/c ... Id=GXCWH4CXLKJD8Z52
-13. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
-14. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
-15. Design TinyURL
-16. Design twitter
-17.  设计一个leaderboard
-18.  让设计个file system 实现存东西取东西删东西这种
-19. design software for vending machines sold Amazon Kindles
-20. design a banking ‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌system
+13. 题是设计亚麻locker，但是主要是用户要下单选择locker提货这个步骤。但是因为面试都是一般bq, 所以technical只有大概40分钟。面试官说只让我focus on API design and Data Model. 我还是大概的问了一下FR and NFR, 这样你知道需要做哪些API。所以大概需求是提供地点，找所有最近locker, 看下单这个是啥locker size，然后比如locker status, 大概谈论一下货物没人取的话我们怎么办。https://www.amazon.com/gp/help/c ... Id=GXCWH4CXLKJD8Z52
+14. SD题目是weather monitor system of washington state. 测温度, 地图, 用户端显示.
+15. 就说design，autocomplete，但是说要定制化的系统，比如每个用户习惯不一样，他们应该拥有不同的autocomplete
+16. Design TinyURL
+17. Design twitter
+18.  设计一个leaderboard
+19.  让设计个file system 实现存东西取东西删东西这种
+20. design software for vending machines sold Amazon Kindles
+21. design a banking ‍‌‌‌‍‌‌‍‌‍‍‍‍‍‌‌‌‌‌‍‌system
 1. System Design HLD. Given a sensor package with 1 million sensors design a system to display a heat map to a team of farmers, What info do you expect the sensors to give, how freq, and how will you store it.
    Source https://leetcode.com/discuss/interview-question/4443121/Amazon-(SDE2)-Virtual-onsite-(Dec-2023)
 1.  Engine to generate ads for customer websites based on rules and metrics. Struggled a bit with this, gave a fairly generic design but realised after that I hadn't taken into account the rules and metrics part.
