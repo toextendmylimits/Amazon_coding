@@ -132,7 +132,8 @@ rent letters |
 | [https://leetcode.com/problems/insert-interval/](https://leetcode.com/problems/insert-interval) | 12/1/24 | NO | Just have a quick look
 |[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | 12/1/24 | YES | Not familiar |
 |[252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms)|12/1/24 | NO | Have a quick look |
-|[https://leetcode.com/problems/non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals) |12/1/24 | YES | Very difficult. Memorize the code. |
+|[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) |12/1/24 | YES | Very difficult. Memorize the code. |
+|[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|12/1/24 | YES | Try understand how to use heap. |
 
 
 ## String
