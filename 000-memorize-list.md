@@ -28,4 +28,5 @@
 19. [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits)  
    Don't forget the time must be of 4 digits. 
 20. [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
-21. [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)  
+21. [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)
+22. [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
