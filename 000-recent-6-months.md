@@ -135,6 +135,7 @@ rent letters |
 |[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) |12/1/24 | YES | Very difficult. Memorize the code. |
 |[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)|12/1/24 | YES | Try understand how to use heap. |
 |[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|12/1/24 | YES | Difficult. |
+|[1094. Car Pooling](https://leetcode.com/problems/car-pooling)|12/1/24 | NO | Easy. |
 
 
 ## String
