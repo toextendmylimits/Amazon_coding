@@ -25,3 +25,5 @@
     Memorize this
 18. [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)  
     Beware to check whether p and q are guaranteed to exist
+19. [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits)  
+   Don't forget the time must be of 4 digits. 
