@@ -22,4 +22,6 @@
 16. [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
 17. [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)
 18. [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)   
-    Memorize this  
+    Memorize this
+18. [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)  
+    Beware to check whether p and q are guaranteed to exist
