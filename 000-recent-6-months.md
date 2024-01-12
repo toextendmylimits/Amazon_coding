@@ -130,6 +130,7 @@ rent letters |
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)| 8/12 | NO | Easy
 | [https://leetcode.com/problems/insert-interval/](https://leetcode.com/problems/insert-interval) | 12/1/24 | NO | Just have a quick look
+|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | 12/1/24 | YES | Not familiar |
 
 
 ## String
