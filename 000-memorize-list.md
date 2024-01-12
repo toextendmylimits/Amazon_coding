@@ -21,3 +21,5 @@
     Memorize iterative way as well.  
 16. [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
 17. [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)
+18. [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)   
+    Memorize this  
