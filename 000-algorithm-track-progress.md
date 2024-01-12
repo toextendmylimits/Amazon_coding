@@ -5,6 +5,7 @@
 1. Heap
 1. Cylic sort
 2. Two Pointers
+3. Prefix sum
 
 ## 7/1/24
 ### Topilogical sort
