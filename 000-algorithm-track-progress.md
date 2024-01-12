@@ -68,3 +68,7 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 15. [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
 16. [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 17. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
+
+## 12/1/24
+### Merge Intervals
+1. [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
