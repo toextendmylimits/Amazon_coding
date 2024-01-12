@@ -74,3 +74,4 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 1. [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 2. [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)
     Advance pointer based on the smaller end position
+3. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms)
