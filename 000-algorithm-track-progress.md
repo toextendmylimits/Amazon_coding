@@ -77,5 +77,7 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 3. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms)
 4. [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)
 5. [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)
-6. [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+   Can use heap as well
+7. [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+8. [1094. Car Pooling](https://leetcode.com/problems/car-pooling)
    
