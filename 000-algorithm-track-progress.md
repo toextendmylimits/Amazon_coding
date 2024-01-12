@@ -6,6 +6,7 @@
 1. Cylic sort
 2. Two Pointers
 3. Prefix sum
+4. Merge sort and line sweeping
 
 ## 7/1/24
 ### Topilogical sort
