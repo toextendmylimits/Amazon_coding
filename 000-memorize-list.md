@@ -16,7 +16,8 @@
 12. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
     Beware the condition check is whether mid <= x // mid. Don't forget the equal sign.  
 13. https://leetcode.com/discuss/interview-question/4048237/Amazon-or-SDE2-or-Coding-Round-or-Graphs
-14. [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
+   Very difficult  
+15. [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
     Memorize iterative way as well.  
-15. [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
-16. [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)
+16. [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
+17. [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern)
