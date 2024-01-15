@@ -35,3 +35,4 @@
 25. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 26. [90. Subsets II](https://leetcode.com/problems/subsets-ii)
 27. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
+28. [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
