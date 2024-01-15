@@ -86,6 +86,8 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
 ### Linked List
 1. [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)  
    Need to have a previous pointer
-1. [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
-   Difficult. Need to memorize the code. 
+1. [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)  
+   Difficult. Need to memorize the code.
+1. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)  
+   Beware the while condition is: pA != pB and return either pA or pB
    
