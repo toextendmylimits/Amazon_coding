@@ -30,3 +30,4 @@
 20. [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
 21. [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)
 22. [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
+23. [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
