@@ -44,5 +44,6 @@
 32. [518. Coin Change II](https://leetcode.com/problems/coin-change)
 
 # Algorithms that very frequent from leetcode
-1. [2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring)
-   If there is time later, can visit the trie structure.  
+1. [2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring)  
+   If there is time later, can visit the trie structure.
+1. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)  
