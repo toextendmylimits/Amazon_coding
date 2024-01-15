@@ -39,4 +39,6 @@
 29. [1244. Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard)
 30. [706. Design HashMap](https://leetcode.com/problems/design-hashmap)
 31. [322. Coin Change](https://leetcode.com/problems/coin-change)  
-    Beware dp[0] = 0, and i >= coin, and check whether return -1 in the end
+    Beware dp[0] = 0, and i >= coin, and check whether return -1 in the end.
+    And remember how to print the combination of smallest length
+32. [518. Coin Change II](https://leetcode.com/problems/coin-change)
