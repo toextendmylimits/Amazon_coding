@@ -34,3 +34,4 @@
 24. [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 25. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 26. [90. Subsets II](https://leetcode.com/problems/subsets-ii)
+27. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
