@@ -81,4 +81,9 @@ So the idea is using binary search. Find mid point, if count of numbers less tha
    Can use heap as well
 7. [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
 8. [1094. Car Pooling](https://leetcode.com/problems/car-pooling)
+
+## 15/1/24
+### Linked List
+1. [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)  
+   Need to have a previous pointer 
    
