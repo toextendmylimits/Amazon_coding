@@ -8,6 +8,19 @@
 3. Prefix sum
 4. Merge sort and line sweeping
 
+## To visit:
+1. Stack and Queue
+2. Linked List
+3. Sliding Window
+4. Binary Search
+5. Dynamic programming
+6. Greedy
+7. Array
+8. String
+9. Backtrack
+10. Design
+11. Bitwise
+12. Math
 ## 7/1/24
 ### Topilogical sort
 1. [207. Course Schedule](https://leetcode.com/problems/course-schedule)  
