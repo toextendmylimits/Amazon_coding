@@ -50,3 +50,5 @@
 2. [2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)
    Use max heap to find the kth smallest number
 1. [2055. Plates Between Candles](https://leetcode.com/problems/plates-between-candles)
+2. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)
+   Use heap
