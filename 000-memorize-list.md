@@ -55,3 +55,5 @@
 1. [2340. Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array)
 2. [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts)
    What matters is non-zero unique numbers
+1. [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+1. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) 
