@@ -52,3 +52,4 @@
 1. [2055. Plates Between Candles](https://leetcode.com/problems/plates-between-candles)
 2. [767. Reorganize String](https://leetcode.com/problems/reorganize-string)
    Use heap
+1. [2340. Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array)
