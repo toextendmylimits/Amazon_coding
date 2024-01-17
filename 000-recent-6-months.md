@@ -25,6 +25,7 @@
 | ----------------------  |  ---------------| -------------  | ------------- | 
 |[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 17/1/24 | NO | Have a brief look is enough
 |[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 17/1/24 | NO | Have a brief look is enough
+|[189. Rotate Array](https://leetcode.com/problems/rotate-array)  | 17/1/24 | NO | Have a brief look is enough
 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
