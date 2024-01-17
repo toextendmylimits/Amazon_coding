@@ -78,3 +78,5 @@
 1. [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)  
    Consider how many times a letter can be the first of its kind in the substrings  
 1. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
+   Very difficult
+1. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
