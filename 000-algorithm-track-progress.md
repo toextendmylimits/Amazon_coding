@@ -7,9 +7,9 @@
 2. Two Pointers
 3. Prefix sum
 4. Merge sort and line sweeping
-
-## To visit:
 1. Stack and Queue
+2. 
+## To visit:
 2. Linked List
 3. Sliding Window
 4. Binary Search
