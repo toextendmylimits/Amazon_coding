@@ -91,6 +91,14 @@
 |[79. Word Search](https://leetcode.com/problems/word-search) | 6/1/24 | YES | Difficult. Need more practice | 
 |[1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 8/1/24 | YES | Standard BFS |
 
+## Backtrack
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[77. Combinations](https://leetcode.com/problems/combinations) | 18/1/24  | YES | Convert tree to graph then do BFS | 
+|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | 18/1/24 | YES | Beware the edge case when original color is same with replacement color, as it leads to infinite recursive stack call, so should return image immediately if original color is same as replacement color| 
+|[39. Combination Sum](https://leetcode.com/problems/combination-sum)   | 18/1/24 | YES | Beware to decrease fresh count when rottening oranges| 
+|[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)    | 18/1/24  | YES | Beware how to avoid duplicates | 
+
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
