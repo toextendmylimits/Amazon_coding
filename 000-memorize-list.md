@@ -65,3 +65,4 @@
 1. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
    Use stack to add index of left bracket.
    Remove invalid right bracket first, and remove invalid left bracket later.   
+1. [394. Decode String](https://leetcode.com/problems/decode-string)
