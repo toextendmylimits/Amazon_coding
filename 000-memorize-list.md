@@ -77,3 +77,4 @@
    Beware to check boundary like left > 0 and right < len(s) when expanding from center
 1. [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)  
    Consider how many times a letter can be the first of its kind in the substrings  
+1. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
