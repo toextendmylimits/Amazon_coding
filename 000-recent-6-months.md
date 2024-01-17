@@ -31,7 +31,7 @@
 |[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)   | 17/1/24 | YES | Beware boundary check: len(result) < (not <=) total cells | 
 |[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)  | 17/1/24 | NO | Have a brief look is enough |
 |[48. Rotate Image](https://leetcode.com/problems/rotate-image) | 17/1/24 | NO | Have a brief look is enough |
-
+|[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)  | 17/1/24 | NO | Have a brief look is enough |
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
