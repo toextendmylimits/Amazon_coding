@@ -80,3 +80,4 @@
 1. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
    Very difficult
 1. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+2. [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string)  
