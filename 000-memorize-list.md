@@ -63,3 +63,5 @@
 5. [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
    Maintain open and close count.
 1. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
+   Use stack to add index of left bracket.
+   Remove invalid right bracket first, and remove invalid left bracket later.   
