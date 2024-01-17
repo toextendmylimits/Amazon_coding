@@ -19,7 +19,13 @@
 |[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)|9/1/24 | YES | Not easy| 
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)  |9/1/24 | NO | Easy| 
 |[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |9/1/24 | NO | Very familiar| 
-   
+
+## Array
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 17/1/24 | NO | Have a brief look is enough
+|[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 17/1/24 | NO | Have a brief look is enough
+
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
