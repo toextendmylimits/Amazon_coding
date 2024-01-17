@@ -8,7 +8,7 @@
 3. Prefix sum
 4. Merge sort and line sweeping
 1. Stack and Queue
-2. 
+2. Array 17/1/24
 ## To visit:
 2. Linked List
 3. Sliding Window
