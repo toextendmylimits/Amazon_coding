@@ -61,4 +61,5 @@
 3. [1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options)
 4. [155. Min Stack](https://leetcode.com/problems/min-stack)
 5. [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
-   Maintain open and close count. 
+   Maintain open and close count.
+1. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
