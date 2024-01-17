@@ -27,6 +27,7 @@
 |[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 17/1/24 | NO | Have a brief look is enough
 |[189. Rotate Array](https://leetcode.com/problems/rotate-array)  | 17/1/24 | NO | Have a brief look is enough
 |[66. Plus One](https://leetcode.com/problems/plus-one)  | 17/1/24 | NO | Have a brief look is enough
+|[350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | 17/1/24 | NO | Have a brief look is enough
 
 ## Sliding window
 |Question                 | Dates           | Practice Again | Note          |
