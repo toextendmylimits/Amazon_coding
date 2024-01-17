@@ -15,7 +15,6 @@
 4. Binary Search
 5. Dynamic programming
 6. Greedy
-7. Array
 8. String
 9. Backtrack
 10. Design
