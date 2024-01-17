@@ -66,3 +66,4 @@
    Use stack to add index of left bracket.
    Remove invalid right bracket first, and remove invalid left bracket later.   
 1. [394. Decode String](https://leetcode.com/problems/decode-string)
+2. [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)
