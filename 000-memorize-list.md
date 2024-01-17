@@ -59,4 +59,6 @@
 1. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
 2. [1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)
 3. [1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options)
-4. [155. Min Stack](https://leetcode.com/problems/min-stack)  
+4. [155. Min Stack](https://leetcode.com/problems/min-stack)
+5. [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+   Maintain open and close count. 
