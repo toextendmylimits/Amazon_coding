@@ -75,3 +75,5 @@
    Still very difficult 
 1. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)  
    Beware to check boundary like left > 0 and right < len(s) when expanding from center
+1. [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)  
+   Consider how many times a letter can be the first of its kind in the substrings  
