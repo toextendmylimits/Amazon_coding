@@ -106,6 +106,7 @@
 |[113. Path Sum II](https://leetcode.com/problems/path-sum-ii)  | 18/1/24  | YES | This is difficult | 
 |[112. Path Sum](https://leetcode.com/problems/path-sum) | 18/1/24  | YES | Have another look | 
 |[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)  | 18/1/24  | YES | Have another look | 
+|[491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences) | 18/1/24  | YES | Difficult for avoding duplicates | 
 
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
