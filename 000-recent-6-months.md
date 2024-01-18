@@ -94,10 +94,12 @@
 ## Backtrack
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
-|[77. Combinations](https://leetcode.com/problems/combinations) | 18/1/24  | YES | Convert tree to graph then do BFS | 
-|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | 18/1/24 | YES | Beware the edge case when original color is same with replacement color, as it leads to infinite recursive stack call, so should return image immediately if original color is same as replacement color| 
-|[39. Combination Sum](https://leetcode.com/problems/combination-sum)   | 18/1/24 | YES | Beware to decrease fresh count when rottening oranges| 
+|[77. Combinations](https://leetcode.com/problems/combinations) | 18/1/24  | YES | | 
+|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | 18/1/24 | YES | | 
+|[39. Combination Sum](https://leetcode.com/problems/combination-sum)   | 18/1/24 | YES | | 
 |[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)    | 18/1/24  | YES | Beware how to avoid duplicates | 
+|[78. Subsets](https://leetcode.com/problems/subsets)  | 18/1/24  | YES | | 
+|[90. Subsets II](https://leetcode.com/problems/subsets-ii)  | 18/1/24  | YES | Beware how to avoid duplicates | 
 
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
