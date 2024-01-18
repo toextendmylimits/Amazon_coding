@@ -1,4 +1,24 @@
 # System design
+
+https://igotanoffer.com/blogs/tech/system-design-interviews
+Designs that should be really familiar:
+1. Design twitter
+2. Tiny url
+3. phone billing system
+4. search engine autocomplete
+5. Dropbox
+6. food delivery app at a global scale
+7. Design a news website
+8. Design a shopping cart system
+9. Design a temperature identification system with geographically distributed sensors
+10. Design a ticketing system
+11. Design a promotion mechanism which could give 10% cash back on a particular credit card
+12. How would you build software behind an Amazon pick up location with lockers?
+13. Design a distributed cache system
+14. How would you design a system that reads book reviews from other sources and displays them on your online bookstore?
+
+
+These are from various sources
 1.  manager 面试， 烙印面试官，半小时system design， 设计一个服务，用户给很长的的text （~2MB），然后能够生成一个url。
   因为直接在聊天室里发长的对话会很占用篇幅，所以要这个服务。因为面的是storage组 所以着重在storage设计。因为亚麻面试固定半小时是bq，所以半个小时system design时间也比较紧张。
 https://www.1point3acres.com/bbs/thread-1033160-1-1.html
