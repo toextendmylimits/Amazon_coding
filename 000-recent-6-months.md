@@ -100,6 +100,8 @@
 |[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)    | 18/1/24  | YES | Beware how to avoid duplicates | 
 |[78. Subsets](https://leetcode.com/problems/subsets)  | 18/1/24  | YES | | 
 |[90. Subsets II](https://leetcode.com/problems/subsets-ii)  | 18/1/24  | YES | Beware how to avoid duplicates | 
+|[46. Permutations](https://leetcode.com/problems/permutations) | 18/1/24  | YES | | 
+|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)  | 18/1/24  | YES | Beware how to avoid duplicates  | 
 
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
