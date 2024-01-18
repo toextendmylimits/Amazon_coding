@@ -18,7 +18,8 @@ https://igotanoffer.com/blogs/tech/system-design-interviews
 14. Object Storage
 
 ## Nices to have
-16. Dropbox
+16. Uber
+17. Dropbox
 18. food delivery app at a global scale
 19. Design a news website
 20. Design a shopping cart system
