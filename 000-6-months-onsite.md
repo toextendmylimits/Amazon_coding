@@ -61,6 +61,7 @@ Input: a list of intervals represented by‍‌‌‌‍‌‌‍‌‍‍‍‍
 
 # System Design
 1. Online chat system
+2. Design file download application
 1. suggestion system for shopping good, when user select one item, suggest other items user might also consider to bought
 2. 一个least recent play song list user会一直在点歌, 听歌, 要实时的返回最近听过的20首歌
 3. Rate limiter
