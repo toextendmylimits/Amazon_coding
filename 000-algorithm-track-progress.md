@@ -9,6 +9,7 @@
 4. Merge sort and line sweeping
 1. Stack and Queue
 2. Array 17/1/24
+3. Backtrack 18/1/24
 ## To visit:
 2. Linked List
 3. Sliding Window
@@ -16,7 +17,6 @@
 5. Dynamic programming
 6. Greedy
 8. String
-9. Backtrack
 10. Design
 11. Bitwise
 12. Math
