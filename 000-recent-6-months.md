@@ -102,6 +102,7 @@
 |[90. Subsets II](https://leetcode.com/problems/subsets-ii)  | 18/1/24  | YES | Beware how to avoid duplicates | 
 |[46. Permutations](https://leetcode.com/problems/permutations) | 18/1/24  | YES | | 
 |[47. Permutations II](https://leetcode.com/problems/permutations-ii/)  | 18/1/24  | YES | Beware how to avoid duplicates  | 
+|17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 18/1/24  | NO | Very clear | 
 
 ## Toplogical Sort
 |Question                 | Dates           | Practice Again | Note          |
