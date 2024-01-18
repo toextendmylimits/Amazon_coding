@@ -1,11 +1,12 @@
 # System design
 
 https://igotanoffer.com/blogs/tech/system-design-interviews
-Designs that should be really familiar:
+## Designs that should be really familiar:
 1. Design twitter
-2. Tiny url
-3. Whats app
-4. Search
+2. News Feeder
+3. Tiny url
+4. Whats app
+5. Search
 6. search engine autocomplete
 7. Distributed log
 8. Web Crawler
@@ -14,16 +15,21 @@ Designs that should be really familiar:
 11. Top K Problem
 12. Leaderboard
 13. Hotel Management
-14. Dropbox
-15. food delivery app at a global scale
-16. Design a news website
-17. Design a shopping cart system
-18. Design a temperature identification system with geographically distributed sensors
-19. Design a ticketing system
-20. Design a promotion mechanism which could give 10% cash back on a particular credit card
-21. How would you build software behind an Amazon pick up location with lockers?
-22. Design a distributed cache system
-23. How would you design a system that reads book reviews from other sources and displays them on your online bookstore?
+14. Object Storage
+
+## Nices to have
+16. Dropbox
+18. food delivery app at a global scale
+19. Design a news website
+20. Design a shopping cart system
+21. Design a temperature identification system with geographically distributed sensors
+22. Design a ticketing system
+23. Design a promotion mechanism which could give 10% cash back on a particular credit card
+24. How would you build software behind an Amazon pick up location with lockers?
+25. Design a distributed cache system
+26. How would you design a system that reads book reviews from other sources and displays them on your online bookstore?
+27. Gmail
+28. Youtube
 
 
 These are from various sources
