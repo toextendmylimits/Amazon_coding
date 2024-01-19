@@ -49,6 +49,7 @@
 |[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 19/1/24 | NO | Very familiar | 
 |[2055. Plates between candles](https://leetcode.com/problems/plates-between-candles) | 4/12 | YES | Need to memorize as well | 
 |[540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)  | 19/1/24 | YES | Difficult | 
+|[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)  | 19/1/24 | NO | Beware minimum speed is 1 | 
 
 
 ## Hash map
