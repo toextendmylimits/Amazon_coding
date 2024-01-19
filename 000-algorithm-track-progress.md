@@ -10,6 +10,7 @@
 1. Stack and Queue
 2. Array 17/1/24
 3. Backtrack 18/1/24
+4. Dynamic programming 19/1/24
 ## To visit:
 2. Linked List
 3. Sliding Window
