@@ -52,6 +52,7 @@
 |[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)  | 19/1/24 | NO | Beware minimum speed is 1 | 
 |[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 19/1/24 | YES | Beware row is: mid // cols, col is: mid % cols | 
 |[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)| 19/1/24 | YES | Need look again. | 
+|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | 19/1/24 | YES | Difficult. Compare with first | 
 
 
 ## Hash map
