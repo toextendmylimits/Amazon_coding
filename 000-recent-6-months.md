@@ -20,6 +20,10 @@
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)  |9/1/24 | NO | Easy| 
 |[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |9/1/24 | NO | Very familiar| 
 
+## Linked List
+|Question                 | Dates           | Practice Again | Note          |
+| ----------------------  |  ---------------| -------------  | ------------- | 
+|[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | 19/1/24 | YES | Have another look | 
 ## Array
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
