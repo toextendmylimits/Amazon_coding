@@ -149,6 +149,7 @@
 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 19/1/24 | YES | Very difficult
 |[516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 19/1/24 | YES | Very difficult
 |[1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii) | 19/1/24 | YES | Very difficult
+|[62. Unique Paths](https://leetcode.com/problems/unique-paths) | 19/1/24 | NO | Easy
 |[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with diffe
 rent letters | 
 |[1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum) | 6/12 | YES |  | 
