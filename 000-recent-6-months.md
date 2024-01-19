@@ -146,6 +146,7 @@
 |[198. House Robber](https://leetcode.com/problems/house-robber)   | 18/1/24 | YES | Difficult | 
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii)| 18/1/24 | YES | Difficult | 
 |[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)| 19/1/24 | YES | Very difficult
+|[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 19/1/24 | YES | Very difficult
 |[516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 19/1/24 | YES | Very difficult
 |[1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii) | 19/1/24 | YES | Very difficult
 |[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | 4/12 | YES | Find strings of len n that ends with diffe
