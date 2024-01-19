@@ -54,6 +54,7 @@
 |[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)| 19/1/24 | YES | Need look again. | 
 |[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | 19/1/24 | YES | Difficult. Compare with first | 
 |[441. Arranging Coins](https://leetcode.com/problems/arranging-coins) | 19/1/24 | YES | A little difficult| 
+|[1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)| 19/1/24 | NO | Very clear | 
 
 
 ## Hash map
