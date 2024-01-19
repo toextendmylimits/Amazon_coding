@@ -46,6 +46,7 @@
 ## Binary Search
 |Question                 | Dates           | Practice Again | Note          |
 | ----------------------  |  ---------------| -------------  | ------------- | 
+|[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 19/1/24 | NO | Very familiar | 
 |[2055. Plates between candles](https://leetcode.com/problems/plates-between-candles) | 4/12 | YES | Need to memorize as well | 
 
 
