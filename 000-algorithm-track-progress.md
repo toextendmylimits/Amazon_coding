@@ -12,9 +12,9 @@
 3. Backtrack 18/1/24
 4. Dynamic programming 19/1/24
 5. Linked List 19/1/24
+6. Binary Search 19/1/24
 ## To visit:
 3. Sliding Window
-4. Binary Search
 6. Greedy
 8. String
 10. Design
