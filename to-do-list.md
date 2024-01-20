@@ -10,3 +10,6 @@ Don't spend any time with something that is not relevant to my life.
 Turned out I didn't do well in last 2 days. I spent a lot of time reading news about US politics. This was hugely wrong. From now to next Saturday, I shouldn't read any news about US politics!!! When I feel sleep or tired and want to relax, I can watch videos online. 
 
 From today on, I should really focus 30% on leadership principle questions, 40% on system design, and 30% on coding.
+
+## 20/1/24
+My life has been a total mess. In the past 2 days, I spent a lot of time reading news about US politics. This was so wrong! In next week, I should not spend any time reading news about US politics at all. I think I will make it.
