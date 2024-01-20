@@ -83,4 +83,4 @@
 2. [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string)
 3. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
    Beware initially counter doesn't have any value, i.e. counter = Counter() not counter = Counter(s)
-   
+1. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams) 
