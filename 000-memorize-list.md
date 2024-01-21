@@ -42,6 +42,7 @@
     Beware dp[0] = 0, and i >= coin, and check whether return -1 in the end.
     And remember how to print the combination of smallest length
 32. [518. Coin Change II](https://leetcode.com/problems/coin-change)
+    Very difficult
 
 # Algorithms that very frequent from leetcode
 1. [2781. Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring)  
