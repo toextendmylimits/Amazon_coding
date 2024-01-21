@@ -13,3 +13,10 @@ From today on, I should really focus 30% on leadership principle questions, 40% 
 
 ## 20/1/24
 My life has been a total mess. In the past 2 days, I spent a lot of time reading news about US politics. This was so wrong! In next week, I should not spend any time reading news about US politics at all. I think I will make it.
+
+## 22/1/24
+Yesterday I spent about half an hour reading news about US politics. Today I spent around one hour. This was terrible. Tomorrow and Wednesday I should not spend any time reading news about US politics. It has nothing to do with my life.
+
+Today I should have stories written for all the major topics of leadership principle questions. I should have a quick look at system design questions that I am not familiar with but my appear.
+
+Today I should also practice at least half the questions that I should memorize. 
