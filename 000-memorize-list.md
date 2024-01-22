@@ -68,7 +68,11 @@
    Remove invalid right bracket first, and remove invalid left bracket later.   
 1. [394. Decode String](https://leetcode.com/problems/decode-string)
 2. [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)
-3. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)  
+   A few things:
+   1. The elements are strictly decreasing hence using queue[-1] <= num
+   2. Make sure the queue is no longer than k. If len(queue) > k, queue.popleft()
+   3. Remember to wait unti i reaches k - 1, hence i >= k - 1
+4. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)  
    This is very difficult. Memorize a few times.  
 1. [636. Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-function)
    Very challenaging. Use stack.  
