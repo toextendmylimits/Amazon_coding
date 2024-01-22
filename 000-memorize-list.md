@@ -76,8 +76,9 @@
    This is very difficult. Memorize a few times.  
 1. [636. Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-function)
    Very challenaging. Use stack.  
-1.[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)  
-   Still very difficult 
+1. [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)  
+   Still very difficult
+1. [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)
 1. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)  
    Beware to check boundary like left > 0 and right < len(s) when expanding from center
 1. [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)  
