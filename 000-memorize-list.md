@@ -105,7 +105,6 @@
 2. [31. Next Permutation](https://leetcode.com/problems/next-permutation)
 3. [15. 3Sum](https://leetcode.com/problems/3sum)
 4. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
-5. [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)
 6. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 7. [139. Word Break](https://leetcode.com/problems/word-break)
 8. [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
