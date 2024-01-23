@@ -22,3 +22,5 @@
   
 ## Regular Expression
 1. [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)
+2. [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
+2. [31. Next Permutation](https://leetcode.com/problems/next-permutation)
