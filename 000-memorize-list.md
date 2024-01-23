@@ -101,7 +101,6 @@
 7. [343. Integer Break](https://leetcode.com/problems/integer-break)
    Very difficult
 9. [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
-1. [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)
 1. [135. Candy](https://leetcode.com/problems/candy)
 2. [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
 3. [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
