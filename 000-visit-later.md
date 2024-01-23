@@ -10,3 +10,12 @@
 ## Two Pointers
 1. [Sort Colors](https://leetcode.com/problems/sort-colors)
 2. [67. Add Binary](https://leetcode.com/problems/add-binary)  
+
+## Mono stack
+
+
+1. 84. Largest Rectangle in Histogram
+1. 739. Daily Temperatures
+1. 496. Next Greater Element I
+1. 503. Next Greater Element II
+1. 556. Next Greater Element III
