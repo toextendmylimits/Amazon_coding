@@ -104,8 +104,6 @@
 1. [135. Candy](https://leetcode.com/problems/candy)
 2. [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
 3. [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
-4. [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
-2. [31. Next Permutation](https://leetcode.com/problems/next-permutation)
 3. [15. 3Sum](https://leetcode.com/problems/3sum)
 4. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
 6. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
