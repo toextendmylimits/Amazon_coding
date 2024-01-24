@@ -1,4 +1,4 @@
-# Algorithm uestions appeared in recennt virtual on-site
+r# Algorithm uestions appeared in recennt virtual on-site
 1. [1668. Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring)
 2. [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 3. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)
@@ -109,7 +109,7 @@
 4. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
    Easy to get wrong
 6. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
-7. [139. Word Break](https://leetcode.com/problems/word-break)
+
 8. [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 9. [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)
 10. [169. Majority Element](https://leetcode.com/problems/majority-element)
