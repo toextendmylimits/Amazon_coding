@@ -2,6 +2,7 @@
 
 ## dynamic programming
 2355	Maximum Number of Books You Can Take
+7. [139. Word Break](https://leetcode.com/problems/word-break)
 
 ## Linked List
 1. [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
@@ -24,3 +25,5 @@
 1. [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)
 2. [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
 2. [31. Next Permutation](https://leetcode.com/problems/next-permutation)
+
+   
