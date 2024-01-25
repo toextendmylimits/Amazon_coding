@@ -19,6 +19,8 @@
 2. [2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies)  
 
 ## Heap
+1. [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) Use Max Heap
+2. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) Use Min Heap
 
 ## Prefix Sum
 
