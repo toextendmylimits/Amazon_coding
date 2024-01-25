@@ -1,5 +1,12 @@
 # The problems to have a look again before interview on Staruday morning
 
+## Tree/Graph BFS/DFS
+1. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)
+2. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)
+3. [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) \
+4. [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+5. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
+6. 
 ## Greedy
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
 2. [45. Jump Game II](https://leetcode.com/problems/jump-game-ii)
