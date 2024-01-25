@@ -2,4 +2,7 @@
 
 ## Greedy
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
-2. [45. Jump Game II](https://leetcode.com/problems/jump-game-ii) 
+2. [45. Jump Game II](https://leetcode.com/problems/jump-game-ii)
+
+## Sliding window
+1. [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)   
