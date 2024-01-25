@@ -27,6 +27,10 @@
 ## Prefix Sum
 Done
 
+## Array
+|[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 17/1/24 | NO | Have a brief look is enough
+|[48. Rotate Image](https://leetcode.com/problems/rotate-image) | 17/1/24 | NO | Have a brief look is enough |
+
 ## Two Pointers
 1. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 1. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) 
