@@ -11,6 +11,7 @@
 8. [752. Open the Lock](https://leetcode.com/problems/open-the-lock)
 9. [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 10. [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/reorganize-string)
+11. [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)
 
 ## Topological Sort
 
