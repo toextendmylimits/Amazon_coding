@@ -28,7 +28,8 @@
 Done
 
 ## Two Pointers
-
+1. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+1. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) 
 ## Stack
 
 ## Dynamic programming
