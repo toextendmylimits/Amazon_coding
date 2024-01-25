@@ -33,7 +33,11 @@ Done
 
 ## Two Pointers
 1. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-1. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) 
+1. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
+2. [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+1. [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) 
+1. [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)
+2. 
 ## Stack
 
 ## Dynamic programming
