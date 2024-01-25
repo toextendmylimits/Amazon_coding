@@ -6,7 +6,11 @@
 3. [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) \
 4. [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
 5. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
-6. 
+6. [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates)
+7. [127. Word Ladder](https://leetcode.com/problems/word-ladder)
+8. [752. Open the Lock](https://leetcode.com/problems/open-the-lock)
+9. [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
+10. 
 ## Greedy
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
 2. [45. Jump Game II](https://leetcode.com/problems/jump-game-ii)
