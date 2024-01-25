@@ -10,7 +10,23 @@
 7. [127. Word Ladder](https://leetcode.com/problems/word-ladder)
 8. [752. Open the Lock](https://leetcode.com/problems/open-the-lock)
 9. [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
-10. 
+
+## Topological Sort
+
+## Heap
+
+## Prefix Sum
+
+## Two Pointers
+
+## Stack
+
+## Dynamic programming
+
+## Binary Search
+
+## Linked List
+
 ## Greedy
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
 2. [45. Jump Game II](https://leetcode.com/problems/jump-game-ii)
