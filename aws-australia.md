@@ -34,7 +34,7 @@
 | 496. Next Greater Element I | Quick look
 | 75. Sort Colors | Quick look
 | 253. Meeting Rooms II | Quick look, two approaches: sweep line and heap
-
+| 79. Word Search | Quick look
 ## Difficult questions
 | Question                | Note                         
 | ------------------------| ------------------------------ 
