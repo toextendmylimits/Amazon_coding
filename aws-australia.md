@@ -24,6 +24,7 @@
 | 205. Isomorphic Strings | Quick look
 | 268. Missing Number | Practice again
 | 739. Daily Temperatures | Practice again
+| 26. Remove Duplicates from Sorted Array | Practice again
 
 ## Difficult questions
 | Question                | Note                         
