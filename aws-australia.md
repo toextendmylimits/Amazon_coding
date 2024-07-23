@@ -26,6 +26,7 @@
 | 739. Daily Temperatures | Practice again
 | 26. Remove Duplicates from Sorted Array | Practice again
 | 54. Spiral Matrix | Quick look
+| 22. Generate Parentheses | Practice again
 
 ## Difficult questions
 | Question                | Note                         
