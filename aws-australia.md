@@ -10,7 +10,9 @@
 | 127. Word Ladder | TC: O(M^2*N),SC: O(M*N) where M is word length, and N is total number of words
 | 126. Word Ladder II | Difficult
 | 9. Palindrome Number | Practice again
-| 70. Climbing Stairs | 
+| 70. Climbing Stairs | Quick look
+| 55. Jump Game | Quick look
+
 ## Difficult questions
 | Question                | Note                         
 | ------------------------| ------------------------------ 
