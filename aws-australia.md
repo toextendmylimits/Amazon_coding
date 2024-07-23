@@ -22,6 +22,7 @@
 | 322. Coin Change | Quick look
 | 198. House Robber | Quic look
 | 205. Isomorphic Strings | Quick look
+| 268. Missing Number | Practice again
 
 ## Difficult questions
 | Question                | Note                         
