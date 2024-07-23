@@ -25,6 +25,7 @@
 | 268. Missing Number | Practice again
 | 739. Daily Temperatures | Practice again
 | 26. Remove Duplicates from Sorted Array | Practice again
+| 54. Spiral Matrix | Quick look
 
 ## Difficult questions
 | Question                | Note                         
