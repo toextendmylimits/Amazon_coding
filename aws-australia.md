@@ -25,3 +25,4 @@
 | 2055. Plates Between Candles |
 | 7. Reverse Integer | Tricky with negative nubmer for python
 | 128. Longest Consecutive Sequence | Not that difficult
+| 134. Gas Station | Difficult
