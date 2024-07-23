@@ -33,6 +33,7 @@
 | 442. Find All Duplicates in an Array | Practice again
 | 496. Next Greater Element I | Quick look
 | 75. Sort Colors | Quick look
+| 253. Meeting Rooms II | Quick look, two approaches: sweep line and heap
 
 ## Difficult questions
 | Question                | Note                         
