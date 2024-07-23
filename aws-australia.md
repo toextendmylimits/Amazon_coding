@@ -13,6 +13,7 @@
 | 70. Climbing Stairs | Quick look
 | 55. Jump Game | Quick look
 | 169. Majority Element | Quick look
+| 238. Product of Array Except Self | Quick look
 
 ## Difficult questions
 | Question                | Note                         
