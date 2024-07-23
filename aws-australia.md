@@ -36,3 +36,4 @@
 | 128. Longest Consecutive Sequence | Not that difficult
 | 134. Gas Station | Difficult
 | 2268. Minimum Number of Keypresses | Difficult
+| 84. Largest Rectangle in Histogram | Need to skip it for now, too difficult 
