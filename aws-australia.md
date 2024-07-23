@@ -21,3 +21,4 @@
 | ------------------------| ------------------------------ 
 | 1152. Analyze User Website Visit Pattern | Practice later
 | 4. Median of Two Sorted Arrays |
+| 2055. Plates Between Candles |
