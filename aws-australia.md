@@ -28,6 +28,7 @@
 | 54. Spiral Matrix | Quick look
 | 22. Generate Parentheses | Practice again
 | 41. First Missing Positive | Practice again
+| 74. Search a 2D Matrix | Quick look
 
 ## Difficult questions
 | Question                | Note                         
