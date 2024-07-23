@@ -19,6 +19,7 @@
 | 767. Reorganize String | Practice again
 | 295. Find Median from Data Stream | Practice again
 | 994. Rotting Oranges | Quick look
+| 322. Coin Change | Quick look
 
 ## Difficult questions
 | Question                | Note                         
