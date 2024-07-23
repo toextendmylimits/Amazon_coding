@@ -22,3 +22,4 @@
 | 1152. Analyze User Website Visit Pattern | Practice later
 | 4. Median of Two Sorted Arrays |
 | 2055. Plates Between Candles |
+| 7. Reverse Integer | Tricky with negative nubmer for python
