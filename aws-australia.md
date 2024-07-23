@@ -21,6 +21,7 @@
 | 994. Rotting Oranges | Quick look
 | 322. Coin Change | Quick look
 | 198. House Robber | Quic look
+| 205. Isomorphic Strings | Quick look
 
 ## Difficult questions
 | Question                | Note                         
