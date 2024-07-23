@@ -29,6 +29,7 @@
 | 22. Generate Parentheses | Practice again
 | 41. First Missing Positive | Practice again
 | 74. Search a 2D Matrix | Quick look
+| 136. Single Number | Practice bit operation again
 
 ## Difficult questions
 | Question                | Note                         
