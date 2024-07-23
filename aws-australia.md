@@ -39,3 +39,4 @@
 | 2268. Minimum Number of Keypresses | Difficult
 | 84. Largest Rectangle in Histogram | Need to skip it for now, too difficult 
 | 472. Concatenated Words | High frequent, need to work on this
+| 10. Regular Expression Matching | Too difficult, skip for now
