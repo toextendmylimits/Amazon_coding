@@ -27,6 +27,7 @@
 | 26. Remove Duplicates from Sorted Array | Practice again
 | 54. Spiral Matrix | Quick look
 | 22. Generate Parentheses | Practice again
+| 41. First Missing Positive | Practice again
 
 ## Difficult questions
 | Question                | Note                         
