@@ -31,6 +31,7 @@
 | 74. Search a 2D Matrix | Quick look
 | 136. Single Number | Practice bit operation again
 | 442. Find All Duplicates in an Array | Practice again
+| 496. Next Greater Element I | Quick look
 
 ## Difficult questions
 | Question                | Note                         
