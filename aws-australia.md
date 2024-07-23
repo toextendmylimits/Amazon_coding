@@ -23,6 +23,7 @@
 | 198. House Robber | Quic look
 | 205. Isomorphic Strings | Quick look
 | 268. Missing Number | Practice again
+| 739. Daily Temperatures | Practice again
 
 ## Difficult questions
 | Question                | Note                         
