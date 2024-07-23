@@ -32,6 +32,7 @@
 | 136. Single Number | Practice bit operation again
 | 442. Find All Duplicates in an Array | Practice again
 | 496. Next Greater Element I | Quick look
+| 75. Sort Colors | Quick look
 
 ## Difficult questions
 | Question                | Note                         
