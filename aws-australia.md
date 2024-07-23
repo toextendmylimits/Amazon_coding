@@ -17,7 +17,7 @@
 | 239. Sliding Window Maximum | Practice again
 | 48. Rotate Image | Quick look
 | 767. Reorganize String | Practice again
-
+| 295. Find Median from Data Stream | Practice again
 ## Difficult questions
 | Question                | Note                         
 | ------------------------| ------------------------------ 
