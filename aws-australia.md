@@ -26,3 +26,4 @@
 | 7. Reverse Integer | Tricky with negative nubmer for python
 | 128. Longest Consecutive Sequence | Not that difficult
 | 134. Gas Station | Difficult
+| 2268. Minimum Number of Keypresses | Difficult
