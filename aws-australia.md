@@ -18,6 +18,8 @@
 | 48. Rotate Image | Quick look
 | 767. Reorganize String | Practice again
 | 295. Find Median from Data Stream | Practice again
+| 994. Rotting Oranges | Quick look
+
 ## Difficult questions
 | Question                | Note                         
 | ------------------------| ------------------------------ 
