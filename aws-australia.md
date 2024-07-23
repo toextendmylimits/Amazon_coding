@@ -5,3 +5,4 @@
 | 49. Group Anagrams | Familiar, quick look
 | 875. Koko Eating Bananas | Quick look
 | 2781. Length of the Longest Valid Substring | Practice again
+| 53. Maximum Subarray | Familiar, quick look
