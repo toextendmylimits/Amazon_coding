@@ -24,3 +24,4 @@
 | 4. Median of Two Sorted Arrays |
 | 2055. Plates Between Candles |
 | 7. Reverse Integer | Tricky with negative nubmer for python
+| 128. Longest Consecutive Sequence | Not that difficult
