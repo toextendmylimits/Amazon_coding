@@ -38,7 +38,7 @@
 ## Difficult questions
 | Question                | Note                         
 | ------------------------| ------------------------------ 
-| 1152. Analyze User Website Visit Pattern | Practice later
+| 1152. Analyze User Website Visit Pattern | Solved
 | 4. Median of Two Sorted Arrays | Solved
 | 2055. Plates Between Candles |
 | 7. Reverse Integer | Tricky with negative nubmer for python
