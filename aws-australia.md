@@ -45,3 +45,4 @@
 | 472. Concatenated Words | High frequent, need to work on this
 | 10. Regular Expression Matching | Too difficult, skip for now
 | 1143. Longest Common Subsequence | Difficult, likely no time for it
+| 399. Evaluate Division | Difficult, no time for it
