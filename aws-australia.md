@@ -20,6 +20,7 @@
 | 295. Find Median from Data Stream | Practice again
 | 994. Rotting Oranges | Quick look
 | 322. Coin Change | Quick look
+| 198. House Robber | Quic look
 
 ## Difficult questions
 | Question                | Note                         
